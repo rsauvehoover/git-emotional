@@ -28,3 +28,5 @@ function parse_repo(arg) {
 	console.log(search);
 	http_get(search);
 }
+
+sentiment = new Sentimood();
