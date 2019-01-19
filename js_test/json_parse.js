@@ -40,11 +40,14 @@ function parse_repo(arg) {
     }
   }
   client.send();
+  return;
 }
 
 //GET a list of commits in each branch
 function get_commits(list, search) {
-	var commit_list;
+	var commit_list = [];
+
+	console.log("Check 1");
 
 	for (var i = 0; i < list.length; i++) {
 		branch_commits = search + "/" + list[i].name;
@@ -52,24 +55,23 @@ function get_commits(list, search) {
 
 	  // call for commits
 	  var client = new XMLHttpRequest();
-	  client.open('GET', branch_commits);
+	  client.open('GET', branch_commits, false);
 	  client.onreadystatechange = function() {
 	  	if (this.readyState == 4) {
-
 	  		var templist = JSON.parse(client.responseText);
 
-	  		for (var i = 0; i < templist.length; i++){
-	  			commit_list.push(templist[i].commit);
-	  			
-	  			// console.log(templist[i].commit.message);		
-	  		}
+	  		// console.log(templist.commit.message);
 
-  			// console.log(client.readyState);
+	  		commit_list.push(templist.commit.message);
+
+	  		// console.log(commit_list);
   		}
   	}
 
   	client.send();
 	}
+
+	console.log(commit_list);
 }
 
 sentiment = new Sentimood();
