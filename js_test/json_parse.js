@@ -24,9 +24,17 @@ function parse_json(file) {
 
 function parse_repo(arg) {
 
-	var search = "https://api.github.com/repos/" + arg + "/commits";
-	console.log(search);
-	http_get(search);
+	var search = "https://api.github.com/repos/" + arg; 
+  var branches = search + "/branches"; 
+  var commits = search + "/commits"; 
+ 
+  // console.log(branches); 
+  http_get(branches); 
+ 
+   
+ 
+  // http_get(commits); 
+  // console.log(jobj[0].commit.message); 
 }
 
 sentiment = new Sentimood();
