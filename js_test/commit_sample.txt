@@ -1,0 +1,2432 @@
+[
+  {
+    "sha": "571918ea668013dcf022286ea85eff1c5333fb8b",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo1NzE5MThlYTY2ODAxM2RjZjAyMjI4NmVhODVlZmYxYzUzMzNmYjhi",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2019-01-12T17:45:56Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-01-12T17:45:56Z"
+      },
+      "message": "Merge pull request #5588 from maiki/patch-1\n\nFix typo",
+      "tree": {
+        "sha": "1d1d113a8d070b30e9bd023fe726ee5eef2d3028",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/1d1d113a8d070b30e9bd023fe726ee5eef2d3028"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/571918ea668013dcf022286ea85eff1c5333fb8b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcOifUCRBK7hj4Ov3rIwAAdHIIAA9QG0KBd1nN0wZQs0xprdKW\nTQSAch8iAp/IT0ms2/zA7F6qbDVoUUovcEWJXTkI9eZOsgVkYM8559aMVzT2/EhX\nBpGn/0jTY9mG6kqI4Pb4kp6tihqxSnZfme2fYx28ND5zWYLwyMVJgEkyKiNs7QBC\nLcfL4kGAqhNV4nc/XyONdzu6odOO80l0GH+kwI4yLchy6hS51n/r5OwRcv4Rv4ry\n+SyNw391mfve4PFGRvwGwFoQ1f0EcIYBCjkjb5c/CkobjmN3KQqZWHPwpxFneva6\nTsleWnb+YnuhuwZfVNAjl1pDwqgZNtuVr/lJvK5EI5puOwqcxYpenq8j6RKr6iI=\n=0h7a\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1d1d113a8d070b30e9bd023fe726ee5eef2d3028\nparent 4e348560ee026833aca23550c0efe664b815baf0\nparent 985ecd8178531ae9a0f1f4982b7edafcf020b807\nauthor Benjamin Bach <benjaoming@gmail.com> 1547315156 +0100\ncommitter GitHub <noreply@github.com> 1547315156 +0100\n\nMerge pull request #5588 from maiki/patch-1\n\nFix typo"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/571918ea668013dcf022286ea85eff1c5333fb8b",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/571918ea668013dcf022286ea85eff1c5333fb8b",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/571918ea668013dcf022286ea85eff1c5333fb8b/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e348560ee026833aca23550c0efe664b815baf0",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/4e348560ee026833aca23550c0efe664b815baf0",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/4e348560ee026833aca23550c0efe664b815baf0"
+      },
+      {
+        "sha": "985ecd8178531ae9a0f1f4982b7edafcf020b807",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/985ecd8178531ae9a0f1f4982b7edafcf020b807",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/985ecd8178531ae9a0f1f4982b7edafcf020b807"
+      }
+    ]
+  },
+  {
+    "sha": "985ecd8178531ae9a0f1f4982b7edafcf020b807",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo5ODVlY2Q4MTc4NTMxYWU5YTBmMWY0OTgyYjdlZGFmY2YwMjBiODA3",
+    "commit": {
+      "author": {
+        "name": "maiki",
+        "email": "maiki@interi.org",
+        "date": "2018-09-03T21:43:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-09-03T21:43:35Z"
+      },
+      "message": "Fix typo",
+      "tree": {
+        "sha": "1d1d113a8d070b30e9bd023fe726ee5eef2d3028",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/1d1d113a8d070b30e9bd023fe726ee5eef2d3028"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/985ecd8178531ae9a0f1f4982b7edafcf020b807",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbjasHCRBK7hj4Ov3rIwAAdHIIAGaQ3K0i4AmteuOa70uXuMz1\nQyYEqPu1ZBz+JG9wkuQHlWlBGLm4fif1ec3Q/d4jH9cYWCGwZgRXO6ndx4/0EL4p\nWrdaTd72I+w+Q5Yje74o+/i9guamIMYNkFmBXVBb7TobyaS3ZChWuNbnhCwkIStV\nJNXXMUUiwS7qW3+PYys06uZwn7mFQYqi0H4xp2Epe6Pdx6qONRGD2lOPDJXFQM4g\n/g1Y1OhCmHmjtKhaDctXX+sDJ33cBupUjcvUWz8tYG/ia/OOM+c8LoodvBsx5TTH\nC+C2oSZA5zfhXi/De6yuy1/eSsQ0CApqXVjdlSQ4zJw/8QV6Bw1aUI0bGuk2bxA=\n=Y+l/\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1d1d113a8d070b30e9bd023fe726ee5eef2d3028\nparent 4e348560ee026833aca23550c0efe664b815baf0\nauthor maiki <maiki@interi.org> 1536011015 -0700\ncommitter GitHub <noreply@github.com> 1536011015 -0700\n\nFix typo"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/985ecd8178531ae9a0f1f4982b7edafcf020b807",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/985ecd8178531ae9a0f1f4982b7edafcf020b807",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/985ecd8178531ae9a0f1f4982b7edafcf020b807/comments",
+    "author": {
+      "login": "maiki",
+      "id": 74557,
+      "node_id": "MDQ6VXNlcjc0NTU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/74557?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maiki",
+      "html_url": "https://github.com/maiki",
+      "followers_url": "https://api.github.com/users/maiki/followers",
+      "following_url": "https://api.github.com/users/maiki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maiki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maiki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maiki/subscriptions",
+      "organizations_url": "https://api.github.com/users/maiki/orgs",
+      "repos_url": "https://api.github.com/users/maiki/repos",
+      "events_url": "https://api.github.com/users/maiki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maiki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4e348560ee026833aca23550c0efe664b815baf0",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/4e348560ee026833aca23550c0efe664b815baf0",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/4e348560ee026833aca23550c0efe664b815baf0"
+      }
+    ]
+  },
+  {
+    "sha": "4e348560ee026833aca23550c0efe664b815baf0",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo0ZTM0ODU2MGVlMDI2ODMzYWNhMjM1NTBjMGVmZTY2NGI4MTViYWYw",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-12T16:35:10Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-12T16:35:10Z"
+      },
+      "message": "Merge pull request #5585 from learningequality/0.17.x\n\n0.17.x into master",
+      "tree": {
+        "sha": "9ccb443f19c6aa927309f04db672b457daaa0682",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/9ccb443f19c6aa927309f04db672b457daaa0682"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/4e348560ee026833aca23550c0efe664b815baf0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbR4M+CRBK7hj4Ov3rIwAAdHIIAAMWA8yKluQUrhdk5IRTs5rW\nP0J/WLth08wHYcBjq1BP5T28N1IxbBK5HJ+jMOa7aqCmhhXp8IzvCXqO2bUx55Zt\n2zYXzjbv09MyBh9KIaEviM1TL71sunXZyfpIdFhzOQnCNrLD+o4lYGfXsfCs8Lvc\nLu/e8dT7qPTgafJAVCN1nxTncQ5R9H+OO27HqnfOiIplTx8sZXYULxRMBlol+Dvx\nIl5hMSJjB0MsXszQg0gJ3WBFtPDnjo6YSRzlpBJ66pFZgTpUqZJ7Z0AUmpsf5NQZ\n1KWZr82ESAAaarNNqoH75ZU75S0hmG+ae95PYgtl7HQH+M81KSgnBqzVj+t8tl0=\n=MMUB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9ccb443f19c6aa927309f04db672b457daaa0682\nparent 7f0ddb75f9b5ab106f52c2d58736eb649644a76f\nparent c1821e21421128fab8e6197498ab76feade0bb1f\nauthor Benjamin Bach <benjaoming@gmail.com> 1531413310 +0200\ncommitter GitHub <noreply@github.com> 1531413310 +0200\n\nMerge pull request #5585 from learningequality/0.17.x\n\n0.17.x into master"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/4e348560ee026833aca23550c0efe664b815baf0",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/4e348560ee026833aca23550c0efe664b815baf0",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/4e348560ee026833aca23550c0efe664b815baf0/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7f0ddb75f9b5ab106f52c2d58736eb649644a76f",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/7f0ddb75f9b5ab106f52c2d58736eb649644a76f",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/7f0ddb75f9b5ab106f52c2d58736eb649644a76f"
+      },
+      {
+        "sha": "c1821e21421128fab8e6197498ab76feade0bb1f",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/c1821e21421128fab8e6197498ab76feade0bb1f",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/c1821e21421128fab8e6197498ab76feade0bb1f"
+      }
+    ]
+  },
+  {
+    "sha": "c1821e21421128fab8e6197498ab76feade0bb1f",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpjMTgyMWUyMTQyMTEyOGZhYjhlNjE5NzQ5OGFiNzZmZWFkZTBiYjFm",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-12T13:07:10Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-12T13:07:10Z"
+      },
+      "message": "Merge pull request #5583 from benjaoming/bug/docs-amendment\n\nAdd a note that the --foreground flag is gone.",
+      "tree": {
+        "sha": "9ccb443f19c6aa927309f04db672b457daaa0682",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/9ccb443f19c6aa927309f04db672b457daaa0682"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/c1821e21421128fab8e6197498ab76feade0bb1f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbR1J+CRBK7hj4Ov3rIwAAdHIIACwYYIn9HsBx3zwqQ6DiM1JN\nS08hSQBOhniQyXWM+eq0jZn+Ll7tdDQ6FE6qpjxsKDbeYJv8jsY8IxaVRlt30ixH\nTArVVg2opNow/02spM8hhYp/g0q7pL3FojpvDNrVHcERNnvOgiSKE9zt6J1q0RRh\nUugQHd/tACkEYZlyHPJBCP3TAibTp8SecarmFDgmHxZu4Vw6hvJMx1JsW2yJ3Hsd\nZqb/vrE0Cxbf0sJeS76H2vta1kLGbPTgr4n8zI0lvOq2PadM4NuQNNnc77Y4AwZm\nIqeBEZeFLHLNkyfajrei/3OXBGLzWuqhuvuhk1ODvVjQKrAdTbbyV8JjuAzVKes=\n=eHfI\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9ccb443f19c6aa927309f04db672b457daaa0682\nparent 4cd3306b4b19eb954e2d557bf1a64fbade853aee\nparent 9918e75b2f105a667e85e6f0a1986bc510a20930\nauthor Benjamin Bach <benjaoming@gmail.com> 1531400830 +0200\ncommitter GitHub <noreply@github.com> 1531400830 +0200\n\nMerge pull request #5583 from benjaoming/bug/docs-amendment\n\nAdd a note that the --foreground flag is gone."
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/c1821e21421128fab8e6197498ab76feade0bb1f",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/c1821e21421128fab8e6197498ab76feade0bb1f",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/c1821e21421128fab8e6197498ab76feade0bb1f/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/4cd3306b4b19eb954e2d557bf1a64fbade853aee"
+      },
+      {
+        "sha": "9918e75b2f105a667e85e6f0a1986bc510a20930",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/9918e75b2f105a667e85e6f0a1986bc510a20930",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/9918e75b2f105a667e85e6f0a1986bc510a20930"
+      }
+    ]
+  },
+  {
+    "sha": "9918e75b2f105a667e85e6f0a1986bc510a20930",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo5OTE4ZTc1YjJmMTA1YTY2N2U4NWU2ZjBhMTk4NmJjNTEwYTIwOTMw",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-12T12:27:51Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-12T12:27:51Z"
+      },
+      "message": "Certificate of httpstat.us is expired",
+      "tree": {
+        "sha": "9ccb443f19c6aa927309f04db672b457daaa0682",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/9ccb443f19c6aa927309f04db672b457daaa0682"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/9918e75b2f105a667e85e6f0a1986bc510a20930",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/9918e75b2f105a667e85e6f0a1986bc510a20930",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/9918e75b2f105a667e85e6f0a1986bc510a20930",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/9918e75b2f105a667e85e6f0a1986bc510a20930/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7b264685cbfe537c0a587457cd7bfd60a65b3d97",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/7b264685cbfe537c0a587457cd7bfd60a65b3d97",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/7b264685cbfe537c0a587457cd7bfd60a65b3d97"
+      }
+    ]
+  },
+  {
+    "sha": "7f0ddb75f9b5ab106f52c2d58736eb649644a76f",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo3ZjBkZGI3NWY5YjVhYjEwNmY1MmMyZDU4NzM2ZWI2NDk2NDRhNzZm",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-12T12:23:05Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-12T12:23:05Z"
+      },
+      "message": "Merge pull request #5584 from learningequality/0.17.x\n\n0.17.x into master (0.17.5 final)",
+      "tree": {
+        "sha": "cef3acb07c4bab0b5a8040366398914f1b32b990",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/cef3acb07c4bab0b5a8040366398914f1b32b990"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/7f0ddb75f9b5ab106f52c2d58736eb649644a76f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbR0gpCRBK7hj4Ov3rIwAAdHIIAJoaH+YS2JLmN3klEXiKOkDN\nGIlY00IXHx7dtUZRdkVYzDDOkxOpp/UbJscVezre6TfLjyxxMujyO1CIUmisMcHe\nCyh+vMed9Q11NFrGutRDZpA/J/UBoHWuAnQWNk5EBMOD4iSb4gmGT1KyZjoAP3VV\nhUN3J9dwkngLN6B/c0rdgkhhmchn0bPu8Fs+erkU9o6Q2HNiVCopAdQ6ec30dKA1\nY7a7fm7G7ipk31gWu8OQZ6q6dem491JbZCRsBuy44AqZ65VJZVmbolnOTS8qqJy5\nDFgqtLraYzQDXhSaOsU40qqQC3u3oiT+MlCIYu7zXfbDOvpRbHagdlhj25j4D5g=\n=QeDo\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cef3acb07c4bab0b5a8040366398914f1b32b990\nparent 0ddf7279a850e0de0753b8310e631f5c9c89f39c\nparent 4cd3306b4b19eb954e2d557bf1a64fbade853aee\nauthor Benjamin Bach <benjaoming@gmail.com> 1531398185 +0200\ncommitter GitHub <noreply@github.com> 1531398185 +0200\n\nMerge pull request #5584 from learningequality/0.17.x\n\n0.17.x into master (0.17.5 final)"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/7f0ddb75f9b5ab106f52c2d58736eb649644a76f",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/7f0ddb75f9b5ab106f52c2d58736eb649644a76f",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/7f0ddb75f9b5ab106f52c2d58736eb649644a76f/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0ddf7279a850e0de0753b8310e631f5c9c89f39c",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/0ddf7279a850e0de0753b8310e631f5c9c89f39c",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/0ddf7279a850e0de0753b8310e631f5c9c89f39c"
+      },
+      {
+        "sha": "4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/4cd3306b4b19eb954e2d557bf1a64fbade853aee"
+      }
+    ]
+  },
+  {
+    "sha": "7b264685cbfe537c0a587457cd7bfd60a65b3d97",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo3YjI2NDY4NWNiZmU1MzdjMGE1ODc0NTdjZDdiZmQ2MGE2NWIzZDk3",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-12T10:26:31Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-12T10:26:31Z"
+      },
+      "message": "Add a note that the --foreground flag is gone.",
+      "tree": {
+        "sha": "a1afe4809e3911f37ad3e1f813cb771901b6843c",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/a1afe4809e3911f37ad3e1f813cb771901b6843c"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/7b264685cbfe537c0a587457cd7bfd60a65b3d97",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/7b264685cbfe537c0a587457cd7bfd60a65b3d97",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/7b264685cbfe537c0a587457cd7bfd60a65b3d97",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/7b264685cbfe537c0a587457cd7bfd60a65b3d97/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/4cd3306b4b19eb954e2d557bf1a64fbade853aee"
+      }
+    ]
+  },
+  {
+    "sha": "4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo0Y2QzMzA2YjRiMTllYjk1NGUyZDU1N2JmMWE2NGZiYWRlODUzYWVl",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-11T21:54:00Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-11T21:54:23Z"
+      },
+      "message": "Bump to 0.17.5",
+      "tree": {
+        "sha": "cef3acb07c4bab0b5a8040366398914f1b32b990",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/cef3acb07c4bab0b5a8040366398914f1b32b990"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/4cd3306b4b19eb954e2d557bf1a64fbade853aee",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/4cd3306b4b19eb954e2d557bf1a64fbade853aee/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3134928143a5caa23e2fb2f3fc6295432aad0915",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/3134928143a5caa23e2fb2f3fc6295432aad0915",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/3134928143a5caa23e2fb2f3fc6295432aad0915"
+      }
+    ]
+  },
+  {
+    "sha": "3134928143a5caa23e2fb2f3fc6295432aad0915",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTozMTM0OTI4MTQzYTVjYWEyM2UyZmIyZjNmYzYyOTU0MzJhYWQwOTE1",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-09T09:50:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-09T09:50:49Z"
+      },
+      "message": "Merge pull request #5580 from benjaoming/feature/releasenotes\n\nRelease note about #5476",
+      "tree": {
+        "sha": "93320765f6098fd381511e1ebf7ab0dea0fad375",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/93320765f6098fd381511e1ebf7ab0dea0fad375"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/3134928143a5caa23e2fb2f3fc6295432aad0915",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQy/5CRBK7hj4Ov3rIwAAdHIIACxUWsjBjpXvBaAaiVvaallC\n+fs32sQ3fWQueldL6eYGyf94BVErcsEzOKnWxU3Ohhz6Udlh0eZxGNtvfs+DWU0o\ncRJ9TKMHRi1BzZtV3bEIDKUaRK16519pXSDuxnTUCWyME+G5qXffvlrD/GfrWOin\niVya50rW0aBqWDTcdSR08C5E04D95j6xUw72iK0s++in+3WqpTp3kn4L13QpGhuz\nVK9yzwzPDdxotxK/3GgTx95dwu2R+or1ebhrukqFFrzTJW7zzFG5xHDbkZWnrOfb\nVrZXgEqlTVJufUgXKWWP2EyjdBvlvdUfrkQ4jJlHe34W/rzkkVDCJnqpDwD7c3Q=\n=PXs1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 93320765f6098fd381511e1ebf7ab0dea0fad375\nparent 8e01c0861265e1804b0029a27b593112d7fd9ac2\nparent f5c941fcb045f5a46de521f225b324ad84c28783\nauthor Benjamin Bach <benjaoming@gmail.com> 1531129849 +0200\ncommitter GitHub <noreply@github.com> 1531129849 +0200\n\nMerge pull request #5580 from benjaoming/feature/releasenotes\n\nRelease note about #5476"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/3134928143a5caa23e2fb2f3fc6295432aad0915",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/3134928143a5caa23e2fb2f3fc6295432aad0915",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/3134928143a5caa23e2fb2f3fc6295432aad0915/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8e01c0861265e1804b0029a27b593112d7fd9ac2",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/8e01c0861265e1804b0029a27b593112d7fd9ac2",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/8e01c0861265e1804b0029a27b593112d7fd9ac2"
+      },
+      {
+        "sha": "f5c941fcb045f5a46de521f225b324ad84c28783",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/f5c941fcb045f5a46de521f225b324ad84c28783",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/f5c941fcb045f5a46de521f225b324ad84c28783"
+      }
+    ]
+  },
+  {
+    "sha": "f5c941fcb045f5a46de521f225b324ad84c28783",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpmNWM5NDFmY2IwNDVmNWE0NmRlNTIxZjIyNWIzMjRhZDg0YzI4Nzgz",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-09T09:49:33Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-09T09:49:51Z"
+      },
+      "message": "Release note about #5476",
+      "tree": {
+        "sha": "93320765f6098fd381511e1ebf7ab0dea0fad375",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/93320765f6098fd381511e1ebf7ab0dea0fad375"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/f5c941fcb045f5a46de521f225b324ad84c28783",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/f5c941fcb045f5a46de521f225b324ad84c28783",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/f5c941fcb045f5a46de521f225b324ad84c28783",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/f5c941fcb045f5a46de521f225b324ad84c28783/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8e01c0861265e1804b0029a27b593112d7fd9ac2",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/8e01c0861265e1804b0029a27b593112d7fd9ac2",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/8e01c0861265e1804b0029a27b593112d7fd9ac2"
+      }
+    ]
+  },
+  {
+    "sha": "8e01c0861265e1804b0029a27b593112d7fd9ac2",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo4ZTAxYzA4NjEyNjVlMTgwNGIwMDI5YTI3YjU5MzExMmQ3ZmQ5YWMy",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-08T23:34:20Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-08T23:34:20Z"
+      },
+      "message": "Merge pull request #5579 from benjaoming/bug/build-foreground\n\nRemove usage of retrievecontentpack --foreground",
+      "tree": {
+        "sha": "2e9bdc1ce99e8e3a9b9f771c1df459d0fe77d6ab",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/2e9bdc1ce99e8e3a9b9f771c1df459d0fe77d6ab"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/8e01c0861265e1804b0029a27b593112d7fd9ac2",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQp98CRBK7hj4Ov3rIwAAdHIIACKJUP/oNtt0o/Co8XSN0pkZ\nRag4vyThduKOuhbU7qUNWmXzWbM7h5YOhGayO6vStpCfL3I3jubkd1UL7+ms9yh6\nm3B9NfiPA5s5Jn3ZBXVQaxUj8V3Mmw30rf5zudxTeLTcUHXOFsjdI6e8GYg+c+Pg\nMX3k+Ko6zd7CyYFhyd0uEZ8QPxpDRnOE5OyDPR2homKj7mnM8soajObz1OsSNVcc\n7VXygoPRQmjIrkNrNg9sNzgXS1ssRZomrv87ZobrHxYZniVe6HBsN2K9uFBI85lM\ny3+jiEAHXkL1MZ1W/63olD5LwAEBqzLcNWY0z/8/3N8wXaxM8K9BR+KpPQcocII=\n=Oyk7\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2e9bdc1ce99e8e3a9b9f771c1df459d0fe77d6ab\nparent ed4824b900bbb228ed3568e887065ededc14fd56\nparent be4da12a77b9deac0fa158b71360e69d5ab9554a\nauthor Benjamin Bach <benjaoming@gmail.com> 1531092860 +0200\ncommitter GitHub <noreply@github.com> 1531092860 +0200\n\nMerge pull request #5579 from benjaoming/bug/build-foreground\n\nRemove usage of retrievecontentpack --foreground"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/8e01c0861265e1804b0029a27b593112d7fd9ac2",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/8e01c0861265e1804b0029a27b593112d7fd9ac2",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/8e01c0861265e1804b0029a27b593112d7fd9ac2/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed4824b900bbb228ed3568e887065ededc14fd56",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/ed4824b900bbb228ed3568e887065ededc14fd56",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/ed4824b900bbb228ed3568e887065ededc14fd56"
+      },
+      {
+        "sha": "be4da12a77b9deac0fa158b71360e69d5ab9554a",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/be4da12a77b9deac0fa158b71360e69d5ab9554a",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/be4da12a77b9deac0fa158b71360e69d5ab9554a"
+      }
+    ]
+  },
+  {
+    "sha": "be4da12a77b9deac0fa158b71360e69d5ab9554a",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpiZTRkYTEyYTc3YjlkZWFjMGZhMTU4YjcxMzYwZTY5ZDVhYjk1NTRh",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T22:39:55Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T22:39:55Z"
+      },
+      "message": "Remove the .zip artifact, it is no longer built",
+      "tree": {
+        "sha": "2e9bdc1ce99e8e3a9b9f771c1df459d0fe77d6ab",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/2e9bdc1ce99e8e3a9b9f771c1df459d0fe77d6ab"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/be4da12a77b9deac0fa158b71360e69d5ab9554a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/be4da12a77b9deac0fa158b71360e69d5ab9554a",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/be4da12a77b9deac0fa158b71360e69d5ab9554a",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/be4da12a77b9deac0fa158b71360e69d5ab9554a/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4"
+      }
+    ]
+  },
+  {
+    "sha": "b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpiNDFhZDE5MjJjNmEyNDQwZmJkMWIwZThkMGIwYzBhMzNhN2Y2MGM0",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T18:41:09Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T18:41:09Z"
+      },
+      "message": "Invoke pip in the Makefile instead of setup.py - fixes brokenness in newer versions of pip/setuptools",
+      "tree": {
+        "sha": "579142463e7333b8231b9b27e12688ad0ce19f6e",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/579142463e7333b8231b9b27e12688ad0ce19f6e"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/b41ad1922c6a2440fbd1b0e8d0b0c0a33a7f60c4/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aa290cfee227ec0b177cf7f48039b98f02053696",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/aa290cfee227ec0b177cf7f48039b98f02053696",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/aa290cfee227ec0b177cf7f48039b98f02053696"
+      }
+    ]
+  },
+  {
+    "sha": "aa290cfee227ec0b177cf7f48039b98f02053696",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTphYTI5MGNmZWUyMjdlYzBiMTc3Y2Y3ZjQ4MDM5Yjk4ZjAyMDUzNjk2",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T18:04:08Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T18:04:08Z"
+      },
+      "message": "Try to fix Docker errors in build Failed to fetch \\<x\\>.deb  404  Not Found",
+      "tree": {
+        "sha": "dcb9cf11980ac27b5470cabc90b7d5328ebef63c",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/dcb9cf11980ac27b5470cabc90b7d5328ebef63c"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/aa290cfee227ec0b177cf7f48039b98f02053696",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/aa290cfee227ec0b177cf7f48039b98f02053696",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/aa290cfee227ec0b177cf7f48039b98f02053696",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/aa290cfee227ec0b177cf7f48039b98f02053696/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d5a69fff4fe2a433ad1fe755256e8731a84f8df4",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/d5a69fff4fe2a433ad1fe755256e8731a84f8df4",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/d5a69fff4fe2a433ad1fe755256e8731a84f8df4"
+      }
+    ]
+  },
+  {
+    "sha": "d5a69fff4fe2a433ad1fe755256e8731a84f8df4",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpkNWE2OWZmZjRmZTJhNDMzYWQxZmU3NTUyNTZlODczMWE4NGY4ZGY0",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:58:29Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:58:29Z"
+      },
+      "message": "Remove usage of retrievecontentpack --foreground",
+      "tree": {
+        "sha": "302163e7f7789093215823ce4cb9943ff64b7e93",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/302163e7f7789093215823ce4cb9943ff64b7e93"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/d5a69fff4fe2a433ad1fe755256e8731a84f8df4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/d5a69fff4fe2a433ad1fe755256e8731a84f8df4",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/d5a69fff4fe2a433ad1fe755256e8731a84f8df4",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/d5a69fff4fe2a433ad1fe755256e8731a84f8df4/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ed4824b900bbb228ed3568e887065ededc14fd56",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/ed4824b900bbb228ed3568e887065ededc14fd56",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/ed4824b900bbb228ed3568e887065ededc14fd56"
+      }
+    ]
+  },
+  {
+    "sha": "ed4824b900bbb228ed3568e887065ededc14fd56",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTplZDQ4MjRiOTAwYmJiMjI4ZWQzNTY4ZTg4NzA2NWVkZWRjMTRmZDU2",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:50:50Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:50:50Z"
+      },
+      "message": "Bump version to 0.17b1",
+      "tree": {
+        "sha": "efdcdcac25e10893eb3efe0fe82804532daef953",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/efdcdcac25e10893eb3efe0fe82804532daef953"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/ed4824b900bbb228ed3568e887065ededc14fd56",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/ed4824b900bbb228ed3568e887065ededc14fd56",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/ed4824b900bbb228ed3568e887065ededc14fd56",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/ed4824b900bbb228ed3568e887065ededc14fd56/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b445d2103a617a17c24b4d46dade415fbb130e48",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/b445d2103a617a17c24b4d46dade415fbb130e48",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/b445d2103a617a17c24b4d46dade415fbb130e48"
+      }
+    ]
+  },
+  {
+    "sha": "b445d2103a617a17c24b4d46dade415fbb130e48",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpiNDQ1ZDIxMDNhNjE3YTE3YzI0YjRkNDZkYWRlNDE1ZmJiMTMwZTQ4",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-08T17:50:07Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-08T17:50:07Z"
+      },
+      "message": "Merge pull request #5578 from benjaoming/bug/retrievecontentpack-slowness\n\nRPi fix: Make running retrievecontentpack download NOT update the DB",
+      "tree": {
+        "sha": "f0d98b066565ad7969b7754f05c0b4fa8531cadf",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/f0d98b066565ad7969b7754f05c0b4fa8531cadf"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/b445d2103a617a17c24b4d46dade415fbb130e48",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQk7PCRBK7hj4Ov3rIwAAdHIIAB/Lj76zPsDJjw81/Vjskyk0\n0jEhsO971FMu5RxADqbPwaS7/yd95p0GkVJJSXtwNKPiMjZIM6b3/keKSu3rxxKK\nUCDsESPIZP3bJ0fT3VNJK/yYoQCNmN74YXU6BgmE7m7xJZfm0K5U44AOFXHar/N0\n+pJths6f8KA5DwFHSSVE0oQNUpxH0ApR40ch1F+YUzAr+Z6FITiSE75TWs9ALz5a\nUgijZb0QBJGPKOwlL/cHbgNx5lel74BmYFBvQzoApVc8DQvL1wlVCT8udGrlJnio\nGMYbg+pfZ2D/km45wsq7pupa9twhwF/MvbT4S0TyM+71s3ny7PBh3ebA2Fb4d/U=\n=GZGh\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f0d98b066565ad7969b7754f05c0b4fa8531cadf\nparent 959f5a4de2bb872e842d420e7d60860602642a15\nparent 3e4729826798dad93407d4750111265e6b84f2eb\nauthor Benjamin Bach <benjaoming@gmail.com> 1531072207 +0200\ncommitter GitHub <noreply@github.com> 1531072207 +0200\n\nMerge pull request #5578 from benjaoming/bug/retrievecontentpack-slowness\n\nRPi fix: Make running retrievecontentpack download NOT update the DB"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/b445d2103a617a17c24b4d46dade415fbb130e48",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/b445d2103a617a17c24b4d46dade415fbb130e48",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/b445d2103a617a17c24b4d46dade415fbb130e48/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "959f5a4de2bb872e842d420e7d60860602642a15",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/959f5a4de2bb872e842d420e7d60860602642a15",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/959f5a4de2bb872e842d420e7d60860602642a15"
+      },
+      {
+        "sha": "3e4729826798dad93407d4750111265e6b84f2eb",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/3e4729826798dad93407d4750111265e6b84f2eb",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/3e4729826798dad93407d4750111265e6b84f2eb"
+      }
+    ]
+  },
+  {
+    "sha": "3e4729826798dad93407d4750111265e6b84f2eb",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTozZTQ3Mjk4MjY3OThkYWQ5MzQwN2Q0NzUwMTExMjY1ZTZiODRmMmVi",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:37:50Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:37:50Z"
+      },
+      "message": "Release note for 0.17.5",
+      "tree": {
+        "sha": "8cfa573a01e36614c5d51f0c0ba6b1a7432c1ed0",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/8cfa573a01e36614c5d51f0c0ba6b1a7432c1ed0"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/3e4729826798dad93407d4750111265e6b84f2eb",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/3e4729826798dad93407d4750111265e6b84f2eb",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/3e4729826798dad93407d4750111265e6b84f2eb",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/3e4729826798dad93407d4750111265e6b84f2eb/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2864bbeeec977640685a5944c03eb38c0177e643",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/2864bbeeec977640685a5944c03eb38c0177e643",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/2864bbeeec977640685a5944c03eb38c0177e643"
+      }
+    ]
+  },
+  {
+    "sha": "2864bbeeec977640685a5944c03eb38c0177e643",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNToyODY0YmJlZWVjOTc3NjQwNjg1YTU5NDRjMDNlYjM4YzAxNzdlNjQz",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:30:39Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T17:30:39Z"
+      },
+      "message": "RPi fix: Make running retrievecontentpack download NOT update the DB by default",
+      "tree": {
+        "sha": "ad7cbdb84a76d004f7283d64778538dabbe73bac",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/ad7cbdb84a76d004f7283d64778538dabbe73bac"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/2864bbeeec977640685a5944c03eb38c0177e643",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/2864bbeeec977640685a5944c03eb38c0177e643",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/2864bbeeec977640685a5944c03eb38c0177e643",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/2864bbeeec977640685a5944c03eb38c0177e643/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28caedddc8c4f4619168a394f029dc73ccf33cc5",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/28caedddc8c4f4619168a394f029dc73ccf33cc5",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/28caedddc8c4f4619168a394f029dc73ccf33cc5"
+      }
+    ]
+  },
+  {
+    "sha": "959f5a4de2bb872e842d420e7d60860602642a15",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo5NTlmNWE0ZGUyYmI4NzJlODQyZDQyMGU3ZDYwODYwNjAyNjQyYTE1",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-08T17:02:59Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-08T17:02:59Z"
+      },
+      "message": "Merge pull request #5577 from benjaoming/docs-fixes-rpi\n\nSome precisioning to the PPA install process",
+      "tree": {
+        "sha": "a0758dd7c4d79cc2d2d980508c7947d94f64e211",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/a0758dd7c4d79cc2d2d980508c7947d94f64e211"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/959f5a4de2bb872e842d420e7d60860602642a15",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbQkPDCRBK7hj4Ov3rIwAAdHIIAABU8UHDaqkF3ww58EH11rRo\nFcL15ne+ES3de4OqSgcZhYZc5UY/CiO+EoYI2bWAfaQqChrAEccYJPGcUezBkptb\noF2I9BR1k+hYw2hGzfdEWV3ur7uNX6LMfcHqQfupYDyY0AuFjfQg88yadt42SUK5\nULUFWr8iUFMwRSvcR8QdFe4oW4fyvNA7VKpBda5SVVVW7TZf+Rt9m+hPO3FPN8O1\nRaNLKihpMVt4u56t2m+2x03MAOa9AYdctirV33Sl/GYWV8wbNDoL9vOVqDXGzGfX\nmFl0d1nuQqpq3u8f+fmTit4zECzFj/7aGmlLqyph1PZCXIUh3nzud8WqDuwHk0A=\n=U1HE\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a0758dd7c4d79cc2d2d980508c7947d94f64e211\nparent 28caedddc8c4f4619168a394f029dc73ccf33cc5\nparent 19e84da0c6739f258c818f7ead57769ab346b3d7\nauthor Benjamin Bach <benjaoming@gmail.com> 1531069379 +0200\ncommitter GitHub <noreply@github.com> 1531069379 +0200\n\nMerge pull request #5577 from benjaoming/docs-fixes-rpi\n\nSome precisioning to the PPA install process"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/959f5a4de2bb872e842d420e7d60860602642a15",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/959f5a4de2bb872e842d420e7d60860602642a15",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/959f5a4de2bb872e842d420e7d60860602642a15/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28caedddc8c4f4619168a394f029dc73ccf33cc5",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/28caedddc8c4f4619168a394f029dc73ccf33cc5",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/28caedddc8c4f4619168a394f029dc73ccf33cc5"
+      },
+      {
+        "sha": "19e84da0c6739f258c818f7ead57769ab346b3d7",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/19e84da0c6739f258c818f7ead57769ab346b3d7",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/19e84da0c6739f258c818f7ead57769ab346b3d7"
+      }
+    ]
+  },
+  {
+    "sha": "19e84da0c6739f258c818f7ead57769ab346b3d7",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNToxOWU4NGRhMGM2NzM5ZjI1OGM4MThmN2VhZDU3NzY5YWIzNDZiM2Q3",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T16:51:26Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-08T16:54:26Z"
+      },
+      "message": "Some precisioning to the PPA install process",
+      "tree": {
+        "sha": "a0758dd7c4d79cc2d2d980508c7947d94f64e211",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/a0758dd7c4d79cc2d2d980508c7947d94f64e211"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/19e84da0c6739f258c818f7ead57769ab346b3d7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/19e84da0c6739f258c818f7ead57769ab346b3d7",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/19e84da0c6739f258c818f7ead57769ab346b3d7",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/19e84da0c6739f258c818f7ead57769ab346b3d7/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "28caedddc8c4f4619168a394f029dc73ccf33cc5",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/28caedddc8c4f4619168a394f029dc73ccf33cc5",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/28caedddc8c4f4619168a394f029dc73ccf33cc5"
+      }
+    ]
+  },
+  {
+    "sha": "28caedddc8c4f4619168a394f029dc73ccf33cc5",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNToyOGNhZWRkZGM4YzRmNDYxOTE2OGEzOTRmMDI5ZGM3M2NjZjMzY2M1",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-07-05T18:37:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-05T18:37:04Z"
+      },
+      "message": "Merge pull request #5576 from benjaoming/feature/doc-simplified-login\n\nDocument SIMPLIFIED_LOGIN",
+      "tree": {
+        "sha": "cfe593cbb24b2aa1ca5d97e4891a004ac4e46a32",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/cfe593cbb24b2aa1ca5d97e4891a004ac4e46a32"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/28caedddc8c4f4619168a394f029dc73ccf33cc5",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbPmVQCRBK7hj4Ov3rIwAAdHIIAInVCPG+kw4LnpjPtmRD8jLg\nzRSNgMDBORlj0f/WszLdNrNJw0TaifDUBqUzYZaKZ/9ykRllKEuF8atuGu096nC8\nd7BbfiemFjQLucU7b9HOMvsHSiZwM54hNgaN9L+q296T7SW/IVmHZhn3ZE1RQGVr\nIB8BHeZ6akwY0ue5xbJxVofllxHMAaHMqmjVVlQ6DWWPpbtd5tXzoNlRSU8fb8Io\n938ehdU43ROwHuABUVLXXvmPkFnyIRLaVyRDlRj1u7qwMvBmNCpxtL74yv+uRBfZ\nR+Iu8Dc9Y9gHApvdZkZzGXqIfViTP21pXDXh+GvUqAlHXyQYfZfqxWQOzQ5mMts=\n=RWmm\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cfe593cbb24b2aa1ca5d97e4891a004ac4e46a32\nparent 6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d\nparent 5a38be487108d944161f571255f6dd99dc12a886\nauthor Benjamin Bach <benjaoming@gmail.com> 1530815824 +0200\ncommitter GitHub <noreply@github.com> 1530815824 +0200\n\nMerge pull request #5576 from benjaoming/feature/doc-simplified-login\n\nDocument SIMPLIFIED_LOGIN"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/28caedddc8c4f4619168a394f029dc73ccf33cc5",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/28caedddc8c4f4619168a394f029dc73ccf33cc5",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/28caedddc8c4f4619168a394f029dc73ccf33cc5/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d"
+      },
+      {
+        "sha": "5a38be487108d944161f571255f6dd99dc12a886",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/5a38be487108d944161f571255f6dd99dc12a886",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/5a38be487108d944161f571255f6dd99dc12a886"
+      }
+    ]
+  },
+  {
+    "sha": "5a38be487108d944161f571255f6dd99dc12a886",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo1YTM4YmU0ODcxMDhkOTQ0MTYxZjU3MTI1NWY2ZGQ5OWRjMTJhODg2",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-05T17:06:02Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-07-05T17:06:02Z"
+      },
+      "message": "Document setting",
+      "tree": {
+        "sha": "cfe593cbb24b2aa1ca5d97e4891a004ac4e46a32",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/cfe593cbb24b2aa1ca5d97e4891a004ac4e46a32"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/5a38be487108d944161f571255f6dd99dc12a886",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/5a38be487108d944161f571255f6dd99dc12a886",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/5a38be487108d944161f571255f6dd99dc12a886",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/5a38be487108d944161f571255f6dd99dc12a886/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d"
+      }
+    ]
+  },
+  {
+    "sha": "6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTo2YzhlZGZlZWFmNjMwYTc0YzMzNmY1ZDA2ZmQ0YmY4YmM0NmU3OTNk",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-03-05T23:39:22Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-03-05T23:39:22Z"
+      },
+      "message": "Merge pull request #5567 from benjaoming/feature/french-docs\n\nAdd translation section w/ link to French docs",
+      "tree": {
+        "sha": "9560b25a76154c7c493578258efcd63354e08df4",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/9560b25a76154c7c493578258efcd63354e08df4"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJandUqCRBK7hj4Ov3rIwAAdHIIABW0uUbXfnTxdj9Ctr0PTU35\ndWMPrmW+tDdpMb7dO1ZEiTWZRfBfv6MZougFndsP4hvNP0gAwmBNjYVj8okjTvWr\n2McnEhuK9LYtMhKhtmk/JdevDS7RjFTwwbLZKobnWwK5sF2Wz4LXzc4lDU4ytjP5\noUr1TNYO01vwxMvcZYYB9so++svDBAJNwHMWxgVxJvPZOJeRzp3gPf5m8ssMz7Yt\nhyhJDpSPLHVFloW3K5RP4/Qq6XZO7A2v18mifbIdX2aLD6iX4NZjZX9KOhr2VnJQ\nX/uBN9pR8AM0HnmpNVE7plUbrZgpB2Sep0+/6wIlve8o/nBkPr/xbhSudRJls10=\n=laHs\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 9560b25a76154c7c493578258efcd63354e08df4\nparent c367d681bc3df7f4ca088c16b84b3919ac78be71\nparent f674e71e2126fd7443aebea794bcbcd01365bde4\nauthor Benjamin Bach <benjaoming@gmail.com> 1520293162 +0100\ncommitter GitHub <noreply@github.com> 1520293162 +0100\n\nMerge pull request #5567 from benjaoming/feature/french-docs\n\nAdd translation section w/ link to French docs"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/6c8edfeeaf630a74c336f5d06fd4bf8bc46e793d/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c367d681bc3df7f4ca088c16b84b3919ac78be71",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/c367d681bc3df7f4ca088c16b84b3919ac78be71",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/c367d681bc3df7f4ca088c16b84b3919ac78be71"
+      },
+      {
+        "sha": "f674e71e2126fd7443aebea794bcbcd01365bde4",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/f674e71e2126fd7443aebea794bcbcd01365bde4",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/f674e71e2126fd7443aebea794bcbcd01365bde4"
+      }
+    ]
+  },
+  {
+    "sha": "f674e71e2126fd7443aebea794bcbcd01365bde4",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpmNjc0ZTcxZTIxMjZmZDc0NDNhZWJlYTc5NGJjYmNkMDEzNjViZGU0",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-02-27T16:49:47Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-03-01T13:11:20Z"
+      },
+      "message": "Add translation section w/ link to French docs",
+      "tree": {
+        "sha": "9560b25a76154c7c493578258efcd63354e08df4",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/9560b25a76154c7c493578258efcd63354e08df4"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/f674e71e2126fd7443aebea794bcbcd01365bde4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/f674e71e2126fd7443aebea794bcbcd01365bde4",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/f674e71e2126fd7443aebea794bcbcd01365bde4",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/f674e71e2126fd7443aebea794bcbcd01365bde4/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c367d681bc3df7f4ca088c16b84b3919ac78be71",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/c367d681bc3df7f4ca088c16b84b3919ac78be71",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/c367d681bc3df7f4ca088c16b84b3919ac78be71"
+      }
+    ]
+  },
+  {
+    "sha": "c367d681bc3df7f4ca088c16b84b3919ac78be71",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTpjMzY3ZDY4MWJjM2RmN2Y0Y2EwODhjMTZiODRiMzkxOWFjNzhiZTcx",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2018-01-19T18:30:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-01-19T18:30:09Z"
+      },
+      "message": "Merge pull request #5562 from benjaoming/bug/knownissues-0.17.4\n\nAdd known issue about content packs in 0.17 series",
+      "tree": {
+        "sha": "b97631c35095f03155f9092a0db742fccd0d3b70",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/b97631c35095f03155f9092a0db742fccd0d3b70"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/c367d681bc3df7f4ca088c16b84b3919ac78be71",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaYjkxCRBK7hj4Ov3rIwAAdHIIAId3Jio6xPMrJEUFLb/vwCk8\nYAJAszyoApxNAJJ9ztfQe4TBM0oQwGyvi1XA23eF536QmBSE+TQg+vk1fHIjOjb7\nGGbi68fXxxGKMfsc9bA+0EiLsqX5KQqz06rhizhSwhUzZYBHJ5eUND7i5uE1XIEE\nr/ppX0P570wGNYyQti3yTwkuECWr2BYv44jqgd8/nXe6aywEnNmwk1kPxK4Eu4e7\nKYZWizku2ILpghb7FmhQZeMfNu0ePB/NcDUGJCvZyvGiA3Fy3WxpvEhyQ8KCeDej\njMsWBNSlephWg4SHdIvWKwL8sXxUEc3JAU+o3nF6f9GRl+LE6D5YtJsqeN1pmcc=\n=k0uJ\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b97631c35095f03155f9092a0db742fccd0d3b70\nparent 25b4cb81309d272cd5a83bcb61b8d93f325b3e5f\nparent e74f3a8022aa6db3c4b1619746663aa3909f393d\nauthor Benjamin Bach <benjaoming@gmail.com> 1516386609 +0100\ncommitter GitHub <noreply@github.com> 1516386609 +0100\n\nMerge pull request #5562 from benjaoming/bug/knownissues-0.17.4\n\nAdd known issue about content packs in 0.17 series"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/c367d681bc3df7f4ca088c16b84b3919ac78be71",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/c367d681bc3df7f4ca088c16b84b3919ac78be71",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/c367d681bc3df7f4ca088c16b84b3919ac78be71/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f"
+      },
+      {
+        "sha": "e74f3a8022aa6db3c4b1619746663aa3909f393d",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/e74f3a8022aa6db3c4b1619746663aa3909f393d",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/e74f3a8022aa6db3c4b1619746663aa3909f393d"
+      }
+    ]
+  },
+  {
+    "sha": "e74f3a8022aa6db3c4b1619746663aa3909f393d",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTplNzRmM2E4MDIyYWE2ZGIzYzRiMTYxOTc0NjY2M2FhMzkwOWYzOTNk",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-01-19T17:35:55Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2018-01-19T18:04:10Z"
+      },
+      "message": "Add known issue about content packs in 0.17 series",
+      "tree": {
+        "sha": "b97631c35095f03155f9092a0db742fccd0d3b70",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/b97631c35095f03155f9092a0db742fccd0d3b70"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/e74f3a8022aa6db3c4b1619746663aa3909f393d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/e74f3a8022aa6db3c4b1619746663aa3909f393d",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/e74f3a8022aa6db3c4b1619746663aa3909f393d",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/e74f3a8022aa6db3c4b1619746663aa3909f393d/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f"
+      }
+    ]
+  },
+  {
+    "sha": "25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNToyNWI0Y2I4MTMwOWQyNzJjZDVhODNiY2I2MWI4ZDkzZjMyNWIzZTVm",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjaoming@gmail.com",
+        "date": "2017-12-22T17:10:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2017-12-22T17:10:57Z"
+      },
+      "message": "Merge pull request #5557 from benjaoming/bug/subtitle-unzipping\n\nFix error in subtitle retrievecontentpack / unpacking",
+      "tree": {
+        "sha": "e7874a928a14c9380ae128023d44e72ba480769a",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/e7874a928a14c9380ae128023d44e72ba480769a"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJaPTyhCRBK7hj4Ov3rIwAAdHIIABE1Q7gRZh15xL3rzmjzs9tR\n6w/WtxPD9A4GlmGPB2nBJpM/4ZYAWQrvT/ggrmDYWcdg7TDHZt2ox0FVRHf9kYCu\n1V1HAEUKtyTXyy+ZQqbApZrirfCBQkCNSRwcvn+862pJ5rJrMF23Zu1lV6Asuckt\nUy7bF0CMto6pE3cHeZ5UFaiS/gJUEHENdgzckDy8lBPpqciTzCghapmsayXUrtk7\nIKJ0/SZgshKfH0JP3Yos+g1LLC7JjNZ4mbYxiyojAT2EmfmFgIeQdeYwUUp7yc1O\nEL1cSAyK0QSJTVwe3CN8Z2bD/aAS+BjozozJbFfH8lVlLrz9TR5xbKoiRXKWFFY=\n=FP7e\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e7874a928a14c9380ae128023d44e72ba480769a\nparent 322c02a42684c00a7ce69328f3b850ee828363ef\nparent 06515397ae4ff0696c17511bf9bb063834999c17\nauthor Benjamin Bach <benjaoming@gmail.com> 1513962657 +0100\ncommitter GitHub <noreply@github.com> 1513962657 +0100\n\nMerge pull request #5557 from benjaoming/bug/subtitle-unzipping\n\nFix error in subtitle retrievecontentpack / unpacking"
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/25b4cb81309d272cd5a83bcb61b8d93f325b3e5f/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "322c02a42684c00a7ce69328f3b850ee828363ef",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/322c02a42684c00a7ce69328f3b850ee828363ef",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/322c02a42684c00a7ce69328f3b850ee828363ef"
+      },
+      {
+        "sha": "06515397ae4ff0696c17511bf9bb063834999c17",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/06515397ae4ff0696c17511bf9bb063834999c17",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/06515397ae4ff0696c17511bf9bb063834999c17"
+      }
+    ]
+  },
+  {
+    "sha": "06515397ae4ff0696c17511bf9bb063834999c17",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTowNjUxNTM5N2FlNGZmMDY5NmMxNzUxMWJmOWJiMDYzODM0OTk5YzE3",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2017-12-20T13:55:28Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2017-12-20T13:55:28Z"
+      },
+      "message": "Fix unzipping empty folder 'subtitles' for contentpacks w/o subtitles #5476",
+      "tree": {
+        "sha": "e7874a928a14c9380ae128023d44e72ba480769a",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/e7874a928a14c9380ae128023d44e72ba480769a"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/06515397ae4ff0696c17511bf9bb063834999c17",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/06515397ae4ff0696c17511bf9bb063834999c17",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/06515397ae4ff0696c17511bf9bb063834999c17",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/06515397ae4ff0696c17511bf9bb063834999c17/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a8298dcd370c3359fa077d2816bb9ec1d4ceb017",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/a8298dcd370c3359fa077d2816bb9ec1d4ceb017",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/a8298dcd370c3359fa077d2816bb9ec1d4ceb017"
+      }
+    ]
+  },
+  {
+    "sha": "a8298dcd370c3359fa077d2816bb9ec1d4ceb017",
+    "node_id": "MDY6Q29tbWl0NTc0MTEyNTphODI5OGRjZDM3MGMzMzU5ZmEwNzdkMjgxNmJiOWVjMWQ0Y2ViMDE3",
+    "commit": {
+      "author": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2017-12-20T13:55:15Z"
+      },
+      "committer": {
+        "name": "Benjamin Bach",
+        "email": "benjamin@learningequality.org",
+        "date": "2017-12-20T13:55:15Z"
+      },
+      "message": "Bump to new 0.17.5 dev series",
+      "tree": {
+        "sha": "74146e3f5c03145f09b0939dc19fb78517bf9f09",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/git/trees/74146e3f5c03145f09b0939dc19fb78517bf9f09"
+      },
+      "url": "https://api.github.com/repos/learningequality/ka-lite/git/commits/a8298dcd370c3359fa077d2816bb9ec1d4ceb017",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/learningequality/ka-lite/commits/a8298dcd370c3359fa077d2816bb9ec1d4ceb017",
+    "html_url": "https://github.com/learningequality/ka-lite/commit/a8298dcd370c3359fa077d2816bb9ec1d4ceb017",
+    "comments_url": "https://api.github.com/repos/learningequality/ka-lite/commits/a8298dcd370c3359fa077d2816bb9ec1d4ceb017/comments",
+    "author": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "benjaoming",
+      "id": 374612,
+      "node_id": "MDQ6VXNlcjM3NDYxMg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/374612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/benjaoming",
+      "html_url": "https://github.com/benjaoming",
+      "followers_url": "https://api.github.com/users/benjaoming/followers",
+      "following_url": "https://api.github.com/users/benjaoming/following{/other_user}",
+      "gists_url": "https://api.github.com/users/benjaoming/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/benjaoming/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/benjaoming/subscriptions",
+      "organizations_url": "https://api.github.com/users/benjaoming/orgs",
+      "repos_url": "https://api.github.com/users/benjaoming/repos",
+      "events_url": "https://api.github.com/users/benjaoming/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/benjaoming/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "322c02a42684c00a7ce69328f3b850ee828363ef",
+        "url": "https://api.github.com/repos/learningequality/ka-lite/commits/322c02a42684c00a7ce69328f3b850ee828363ef",
+        "html_url": "https://github.com/learningequality/ka-lite/commit/322c02a42684c00a7ce69328f3b850ee828363ef"
+      }
+    ]
+  }
+]
