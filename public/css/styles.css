@@ -1,0 +1,78 @@
+body {
+  background-color: #36494E;
+}
+#text {
+  font-family: Helvetica;
+}
+#text-item {
+  color: #387780;
+  font-family: Helvetica;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+p {
+  text-align: center;
+  color: #387780;
+  font-family: Helvetica;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  /* make main axis horizontal (default setting) */
+  justify-content: center;
+  /* center items horizontally, in this case */
+  align-items: center;
+  /* center items vertically, in this case */
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+.header {
+  font-size: 6em;
+  color: #DBD4D3;
+  font-family: Helvetica;
+}
+.main {
+  text-align: left;
+  font-size: 2em;
+  color: #387780;
+  font-family: Helvetica;
+}
+.sub-button {
+  background: #D2CCA1;
+  font-size: 2em;
+  color: #387780;
+  font-family: Helvetica;
+}
+@media all and (min-width: 600px) {
+  .button {
+    flex: 1 0 0;
+  }
+}
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
+  }
+  .main {
+    order: 1;
+  }
+  .sub-button {
+    order: 2;
+  }
+}
+body {
+  padding: 2em;
+}
