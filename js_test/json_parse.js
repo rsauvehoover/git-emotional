@@ -4,7 +4,7 @@ console.log("running");
 //globals for testing
 var jobj;
 
-
+var sample_git = "https://api.github.com/repos/learningequality/ka-lite/commits";
 
 function http_get(arg) {
 var client = new XMLHttpRequest();
