@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test Page</title>
+<script>
+const Http = new XMLHttpRequest();
+const url = 'https://api.github.com/repos/learningequality/ka-lite/commits';
+Http.open("GET", url);
+Http.send();
+
+Http.onreadystatechange = (e) =>{
+	console.log(Http.responseText)
+}
+</script>
+</head>
