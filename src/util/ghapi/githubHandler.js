@@ -11,6 +11,7 @@ export class GithubHandler {
 		return 0;
 	}
 
+	// gets a list of the commits in a branch given the head's sha
 	get_commits(sha, search) {
 		var query = search + "?per_page=100&sha=" + sha;
 
@@ -24,13 +25,14 @@ export class GithubHandler {
 				var templist = JSON.parse(client.responseText);
 				// append commits to global list commit_list
 				for (var i = 0; i < templist.length; i++){
-					parent.commits.push([templist[i].commit.message, templist[i].commit.author.date]);
+					parent.commits.push([templist[i].commit.message, templist[i].commit.author.date, templist[i].commit.author.name]);
 				}
 			}
 		}
 		client.send();
 	}
 
+	// takes a branch name and gets the head of the branch then calls get_commits to retrieve commits
 	get_commit_list(list, commit_url) {
 		var branch_heads = [];
 		var branch_commits;
@@ -75,8 +77,10 @@ export class GithubHandler {
 				}
 			}
 		}
+		// this.print_commits();
 	}
 
+	// this function takes an argument of the format user/repo and calls other functions to fill commits
 	parse_repo(url) {
 		this.url = url.split(".com/").pop();
 
@@ -95,5 +99,13 @@ export class GithubHandler {
 			}
 		}
 		client.send();
+	}
+
+	// prints the list of commits primarily for testing
+	print_commits(){
+
+		for (var i = 0; i < this.commits.length; i++){
+			console.log(this.commits[i]);
+		}
 	}
 }
