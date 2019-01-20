@@ -22,10 +22,15 @@ class StatPage extends Component {
   render() {
     return (
       <div>
-        <ReturnToSubmitButton></ReturnToSubmitButton>
+        
         <div>
           <LinePlot />
         </div>
+        <ReturnToSubmitButton></ReturnToSubmitButton>
+        <button className="button dashboard-button"
+              onClick={() => {}}
+              >Change View
+        </button>
       </div>
       
     );

@@ -9,7 +9,7 @@ class ReturnToSubmitButton extends Component {
 
   render() {
     return (
-      <button className="button return-button" onClick={() => this.nextPath('/') }>GoBack</button>
+      <button className="button return-button dashboard-button" onClick={() => this.nextPath('/') }>Return</button>
     )
   }
 }
