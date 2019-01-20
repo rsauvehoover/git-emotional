@@ -87,7 +87,18 @@ class LinePlot extends React.Component {
     //   }
     //   L[i] = prev+(this.sigmoid(cur)*factor);
     // }
+   
     return L;
+  }
+
+  filter(L) {
+    var M = [];
+    M[0] = L[0];
+    M[L.length] = L[L.length];
+    for (var i = 1; i < L.length-1; i++){
+      M[i] = L[i-1]*0.242 + L[i]*0.399 + L[i+1]*0.242;
+    }
+    return M;
   }
 
   generateSentiment() {
@@ -97,6 +108,7 @@ class LinePlot extends React.Component {
         this.commitMessages.push(this.props.commits[i][0]);
       }
       this.convertValues(this.sentimentValues);
+      this.sentimentValues = this.filter(this.sentimentValues);
       
     }
 
