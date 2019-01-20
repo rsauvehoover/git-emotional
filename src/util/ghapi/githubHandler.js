@@ -74,9 +74,8 @@ export class GithubHandler {
 					j++;
 				}
 			}
-
-		this.print_commits();
 		}
+		this.print_commits();
 	}
 
 	parse_repo(url) {
