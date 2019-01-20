@@ -5,7 +5,7 @@ export default class StatPage extends Component {
   componentDidMount() {
     var sentimood = new Sentimood();
     // Example of a function using sentimood
-    console.log(sentimood.analyze('fuck this shit'));
+    console.log(sentimood.mood('this don\'t good'));
   }
   render() {
     return (

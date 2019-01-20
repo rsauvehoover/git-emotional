@@ -2,6 +2,8 @@
 sentimood v1.0
 a CoffeeScript browser-compatible port of thinkroth's Sentimental
 open-source under the MIT license, (c) Ethan Arterberry 2015
+
+modified by Kevin de Haan
 */
 
 /* Usage:
@@ -2498,80 +2500,48 @@ export default class Sentimood {
       "resolved": 3,
       "?": -2,
       "again": -1,
-      "know": 2
+      "know": 2,
+      "failed": -2,
+      "something": -1
     };
 
     this.negations = {
       "not": -1,
-      "don't": -1,
-      "isn't": -1
+      "t": -1,
     };
   }
 
-  negativity(phrase) {
-    var addPush, hits, i, item, j, len, noPunctuation, tokens, words;
-    addPush = function(t, score) {
-      hits -= score;
-      return words.push(t);
-    };
-    noPunctuation = phrase.replace(/[^a-zA-Z ]+/g, ' ').replace('/ {2,}/', ' ');
-    tokens = noPunctuation.toLowerCase().split(" ");
-    hits = 0;
-    words = [];
-    for (i = j = 0, len = tokens.length; j < len; i = ++j) {
-      item = tokens[i];
-      if (this.afinn.hasOwnProperty(item)) {
-        if (this.afinn[item] < 0) {
-          addPush(item, this.afinn[item]);
-        }
-      }
-      if (this.negations.hasOwnProperty(item)) {
-        if (this.negations[item] < 0) {
-          hits = hits*-1;
-        }
-      }
-    }
-    return {
-      score: hits,
-      comparative: hits / words.length,
-      words: words
-    };
-  };
 
-  positivity(phrase) {
+  analyze(phrase) {
     var addPush, hits, i, item, j, len, noPunctuation, tokens, words;
     addPush = function(t, score) {
       hits += score;
-      return words.push(t);
+      return words.push({t, score});
     };
     noPunctuation = phrase.replace(/[^a-zA-Z ]+/g, ' ').replace('/ {2,}/', ' ');
     tokens = noPunctuation.toLowerCase().split(" ");
     hits = 0;
     words = [];
+    var negate = false;
     for (i = j = 0, len = tokens.length; j < len; i = ++j) {
       item = tokens[i];
+      console.log(item);
       if (this.afinn.hasOwnProperty(item)) {
-        if (this.afinn[item] > 0) {
+        if (negate) {
+          addPush(item, this.afinn[item]*-1);
+        } else {
           addPush(item, this.afinn[item]);
         }
+      }
+      negate = false;
+      if (this.negations.hasOwnProperty(item)) {
+        negate = true;
       }
     }
     return {
       score: hits,
       comparative: hits / words.length,
       words: words
-    };
-  };
-
-  analyze(phrase) {
-    var neg, pos;
-    pos = this.positivity(phrase);
-    neg = this.negativity(phrase);
-    return {
-      score: pos.score - neg.score,
-      comparative: pos.comparative - neg.comparative,
-      positive: pos,
-      negative: neg
     };
   }
 }
