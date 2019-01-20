@@ -1,10 +1,10 @@
 export class GithubHandler {
 	constructor(url) {
+
+		url.split(".com/").pop();
+
 		this.commits = [];
 		this.url = url;
-
-		// TODO actually do a bit of parsing on the url to handle http://...
-		// currently only handles "username/reponame"
 	}
 
 	compare(a,b) {

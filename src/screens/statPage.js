@@ -13,7 +13,7 @@ export default class StatPage extends Component {
 
 		var ghHandler = new GithubHandler("rsauvehoover/git-emotional");
 		console.log("running a test");
-		ghHandler.parse_repo("rsauvehoover/git-emotional");
+		ghHandler.parse_repo("https://github.com/rsauvehoover/git-emotional");
   }
   render() {
     return (
