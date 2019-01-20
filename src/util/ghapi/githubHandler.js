@@ -24,7 +24,7 @@ export class GithubHandler {
 				var templist = JSON.parse(client.responseText);
 				// append commits to global list commit_list
 				for (var i = 0; i < templist.length; i++){
-					parent.commits.push([templist[i].commit.message, templist[i].commit.author.date]);
+					parent.commits.push([templist[i].commit.message, templist[i].commit.author.date, templist[i].author.name]);
 				}
 			}
 		}
@@ -74,6 +74,8 @@ export class GithubHandler {
 					j++;
 				}
 			}
+
+		this.print_commits();
 		}
 	}
 
@@ -95,5 +97,12 @@ export class GithubHandler {
 			}
 		}
 		client.send();
+	}
+
+	print_commits(){
+
+		for (var i = 0; i < this.commits.length; i++){
+			console.log(this.commits[i]);
+		}
 	}
 }
