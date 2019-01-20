@@ -37,7 +37,6 @@ export default class Sentimood {
     var negate = false;
     for (i = j = 0, len = tokens.length; j < len; i = ++j) {
       item = tokens[i];
-      console.log(item);
       if (this.afinn.hasOwnProperty(item)) {
         if (negate) {
           addPush(item, this.afinn[item]*-1);

@@ -1,22 +1,18 @@
 import React from 'react';
 import {Line} from 'react-chartjs-2';
-
-import { connect } from 'react-redux';
-
+import Sentimood from './sentiment/sentimood.js';
 
 class LinePlot extends React.Component {
   constructor(props) {
     super(props)
     this.data = {};
     this.options = {}
+    this.sentimood = new Sentimood();
+    this.timeStamps = [];
+    this.sentimentValues = [];
   }
 
-  componentDidMount() {
-    if (!(this.props.gh_data === [])) {
-    }
-    this.timeStamps = ['January', 'February', 'March', 'April', 'May', 'June', 'July']
-    this.sentimentValues = this.convertValues([3, 3, 2, 1, -3, 2, 1, 1, -1])
-
+  generateGraph() {
     this.RATE_OF_GROWTH = 10 //lower means faster growth
     this.NEGATIVE_IMPACT = 2 //higher means negative values cause larger drops
 
@@ -24,7 +20,7 @@ class LinePlot extends React.Component {
       labels: this.timeStamps,
       datasets: [
         {
-          label: 'My First dataset',
+          label: this.props.gh_url,
           fill: false,
           lineTension: 0.1,
           backgroundColor: 'rgba(75,192,192,0.4)',
@@ -51,7 +47,7 @@ class LinePlot extends React.Component {
       scales:{
         yAxes:[{
           ticks:{
-            min: 0,
+            min: -1,
             max: 1,
           }
         }]
@@ -75,22 +71,36 @@ class LinePlot extends React.Component {
     return L;
   }
 
+  generateSentiment() {
+      for (var i = 0; i < this.props.commits.length; i++) {
+        this.sentimentValues.push(this.sentimood.analyze(this.props.commits[i][0]).score);
+        this.timeStamps.push(this.props.commits[i][1]);
+      }
+    }
+
   render() {
-    return (
-      <div>
-      <h2>Line Example</h2>
-      <Line
+    if (this.props.commits.length > 0) {
+      this.generateSentiment();
+      this.sentimentValues = this.convertValues(this.sentimentValues);
+      this.generateGraph();
+      return (
+        <div>
+        <h2>{this.props.gh_url}</h2>
+        <Line
         data={this.data}
         options={this.options}
-      />
-      </div>
-    );
+        />
+        </div>
+      );
+    }
+    else{
+      return(
+        <div>
+        </div>
+      );
+    }
   }
 };
 
-const mapStateToProps = state => {
-  const gh_data = state.updateGhRawData;
-  return { gh_data };
-}
 
-export default connect(mapStateToProps)(LinePlot)
+export default LinePlot

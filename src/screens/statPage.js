@@ -8,11 +8,13 @@ import { updateRawData, ACTIONS } from '../redux/actions/actions.js';
 
 class StatPage extends Component {
   componentDidMount() {
-		var ghHandler = new GithubHandler();
+    this.continueFlag = 0;
+    var ghHandler = new GithubHandler();
     if (!(this.props.gh_url === '')) {
       ghHandler.parse_repo(this.props.gh_url);
-      console.log(ghHandler.commits);
       this.props.updateRawData(ACTIONS.UPDATE_RAW_DATA, ghHandler.commits);
+      this.commits = ghHandler.commits;
+      this.continueFlag = 1;
     }
     else {
       this.props.history.push('/');
@@ -20,15 +22,25 @@ class StatPage extends Component {
   }
 
   render() {
-    return (
-      <div>
+    if(this.continueFlag !== 0 && this.commits) {
+      return (
+        <div>
         <ReturnToSubmitButton></ReturnToSubmitButton>
         <div>
-          <LinePlot />
+        <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
         </div>
-      </div>
-      
-    );
+        </div>
+      );
+    }
+    else {
+      return (
+        <div>
+        <ReturnToSubmitButton></ReturnToSubmitButton>
+        <div>
+        </div>
+        </div>
+      );
+    }
   }
 }
 
