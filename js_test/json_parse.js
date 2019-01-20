@@ -4,6 +4,9 @@ console.log("running");
 //globals for testing
 var jobj;
 
+var commits = [];
+
+// var commits = new Set([]); 
 // var sample_git = "https://api.github.com/repos/learningequality/ka-lite/commits";
 
 // function http_get(arg) {
@@ -36,7 +39,7 @@ function parse_repo(arg) {
 
     if (this.readyState == 4) {
       branchlist = JSON.parse(client.responseText);
-      get_commits(branchlist, commits);	
+      get_commit_list(branchlist, commits);	
     }
   }
   client.send();
@@ -44,10 +47,10 @@ function parse_repo(arg) {
 }
 
 //GET a list of commits in each branch
-function get_commits(list, search) {
-	var commit_list = [];
+function get_commit_list(list, search) {
+	var branch_heads = [];
 
-	console.log("Check 1");
+	// console.log("Check 1");
 
 	for (var i = 0; i < list.length; i++) {
 		branch_commits = search + "/" + list[i].name;
@@ -62,7 +65,7 @@ function get_commits(list, search) {
 
 	  		// console.log(templist.commit.message);
 
-	  		commit_list.push(templist.commit.message);
+	  		branch_heads.push(templist.sha);
 
 	  		// console.log(commit_list);
   		}
@@ -71,7 +74,57 @@ function get_commits(list, search) {
   	client.send();
 	}
 
-	console.log(commit_list);
+	console.log(branch_heads);
+
+	//get commits in each branch
+	for (var i = 0; i < branch_heads.length; i++ ) {
+
+		get_commits(branch_heads[i], search);
+
+	}
+
+	// for (var i = 0; i < commits.length; i++ ) {
+
+	// 	console.log(commits[i]);
+	// }
+
+	var unique_commits = new Set(commits);
+
+	unique_commits.forEach(print_object);
+
+
+}
+
+function get_commits(sha, search) {
+
+	query = search + "?per_page=100&sha=" + sha;
+
+	console.log(query);
+
+	var client = new XMLHttpRequest();
+  client.open('GET', query, false);
+  client.onreadystatechange = function() {
+  	if (this.readyState == 4) {
+  		var templist = JSON.parse(client.responseText);
+
+  		// append commits to global list commit_list
+  		for (var i = 0; i < templist.length; i++){
+				commits.push([templist[i].commit.message, templist[i].commit.author.date]);
+				// console.log([templist[i].commit.message, templist[i].commit.author.date]);
+			}
+
+  		// console.log(commit_list);
+		}
+	}
+
+	client.send();
+}
+
+
+function print_object(arg) {
+
+	console.log(arg);
+
 }
 
 sentiment = new Sentimood();
