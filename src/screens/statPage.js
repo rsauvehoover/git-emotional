@@ -1,20 +1,20 @@
 import React, { Component }  from 'react';
-import Sentimood from '../util/sentiment/sentimood.js';
 import LinePlot from '../util/line.js';
 import ReturnToSubmitButton from '../components/returnToSubmitButton.js';
 import { GithubHandler } from '../util/ghapi/githubHandler.js';
 
+import { connect } from 'react-redux';
+import { updateRawData, ACTIONS } from '../redux/actions/actions.js';
 
-export default class StatPage extends Component {
+class StatPage extends Component {
   componentDidMount() {
-    var sentimood = new Sentimood();
-    // Example of a function using sentimood
-    console.log(sentimood.analyze('this don\'t good'));
-
-		var ghHandler = new GithubHandler("rsauvehoover/git-emotional");
-		console.log("running a test");
-		ghHandler.parse_repo("https://github.com/rsauvehoover/git-emotional");
+		var ghHandler = new GithubHandler();
+    if (!(this.props.gh_url === '')) {
+      ghHandler.parse_repo(this.props.gh_url);
+      this.props.updateRawData(ACTIONS.UPDATE_RAW_DATA, ghHandler.commits);
+    }
   }
+
   render() {
     return (
       <div>
@@ -27,3 +27,11 @@ export default class StatPage extends Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  const gh_url = state.updateGhUrl;
+  return { gh_url }
+};
+
+export default connect(mapStateToProps, { updateRawData } )(StatPage)
+

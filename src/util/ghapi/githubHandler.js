@@ -1,10 +1,8 @@
 export class GithubHandler {
-	constructor(url) {
-
-		url.split(".com/").pop();
+	constructor() {
 
 		this.commits = [];
-		this.url = url;
+		this.url = '';
 	}
 
 	compare(a,b) {
@@ -15,7 +13,6 @@ export class GithubHandler {
 
 	get_commits(sha, search) {
 		var query = search + "?per_page=100&sha=" + sha;
-		console.log(query);
 
 		var client = new XMLHttpRequest();
 
@@ -40,7 +37,6 @@ export class GithubHandler {
 
 		for (var i = 0; i < list.length; i++) {
 			branch_commits = commit_url + "/" + list[i].name;
-			console.log(branch_commits);
 
 			var client = new XMLHttpRequest();
 			client.open('GET', branch_commits, false);
@@ -53,8 +49,6 @@ export class GithubHandler {
 			}
 			client.send();
 		}
-
-		console.log(branch_heads);
 
 		//get commits in each branch
 		for (i = 0; i < branch_heads.length; i++ ) {
@@ -81,14 +75,11 @@ export class GithubHandler {
 				}
 			}
 		}
-
-		for (i = 0; i < this.commits.length; i++ ) {
-			// This is where the commits are
-			console.log(this.commits[i]);
-		}
 	}
 
-	parse_repo() {
+	parse_repo(url) {
+		this.url = url.split(".com/").pop();
+
 		var search_url = "http://api.github.com/repos/" + this.url;
 		var branch_url = search_url + "/branches";
 		var commit_url = search_url + "/commits";
