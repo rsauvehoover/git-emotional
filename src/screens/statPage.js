@@ -24,15 +24,17 @@ class StatPage extends Component {
   render() {
     if(this.continueFlag !== 0 && this.commits) {
       return (
-        <div>
-        <div>
-        <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
-        </div>
-        <ReturnToSubmitButton></ReturnToSubmitButton>
-        <button className="button dashboard-button"
-        onClick={() => {}}
-        >Change View
-        </button>
+        <div className="flex-container wrapper">
+          <div>
+            <div clssName="plot">
+              <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
+            </div>
+            <ReturnToSubmitButton></ReturnToSubmitButton>
+            <button className="button dashboard-button"
+              onClick={() => {}}
+              >Change View
+            </button>
+          </div>
         </div>
       );
     }

@@ -164,6 +164,12 @@ body {
   transition: opacity 250ms ease-in;
 }
 
+.plot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media all and (min-width: 600px) {
   .button {
