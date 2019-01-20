@@ -25,11 +25,14 @@ class SubmitPage extends Component {
       <div className="flex-container wrapper">
         <div className="wrapper">
           <div className="header">git Emotional</div>
-          <input className="main" placeholder="Enter git repository URL"
-            onChange={e => this.updateInput(e.target.value)}
-            value={this.state.input} 
-          />
-          <button className="button sub-button" onClick={() => this.nextPath('/stat') }>Submit</button>
+          <div>
+            <input className="main input" placeholder="Enter git repository URL"
+              onChange={e => this.updateInput(e.target.value)}
+              value={this.state.input} 
+            />
+            <button className="button sub-button" onClick={() => this.nextPath('/stat') }>Submit</button>
+          </div>
+         
         </div>
       </div>
     );
