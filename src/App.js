@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './sentimood.js'
+import './client.js';
+
 
 class App extends Component {
   render() {
