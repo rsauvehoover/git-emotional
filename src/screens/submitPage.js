@@ -7,9 +7,11 @@ class SubmitPage extends Component {
       <div className="flex-container wrapper">
         <div className="wrapper">
           <div className="header">git Emotional</div>
-          <input className="main" placeholder="Enter git repository URL" id="urlInput">
-          </input>
-					<SubmitButton></SubmitButton>
+          <div>
+            <input className="main input" placeholder="Enter git repository URL" id="urlInput">
+            </input>
+            <SubmitButton></SubmitButton>
+          </div>
         </div>
       </div>
     );
