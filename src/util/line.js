@@ -48,12 +48,12 @@ class LinePlot extends React.Component {
 
     this.options = {
       scales:{
-        yAxes:[{
-          ticks:{
-            min: -10,
-            max: 10,
-          }
-        }]
+        // yAxes:[{
+        //   ticks:{
+        //     min: -10,
+        //     max: 10,
+        //   }
+        // }]
       }
     }
   }
@@ -80,6 +80,7 @@ class LinePlot extends React.Component {
         this.timeStamps.push(this.props.commits[i][1]);
         this.commitMessages.push(this.props.commits[i][0]);
       }
+      this.convertValues(this.sentimentValues);
       
     }
 

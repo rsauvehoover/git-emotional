@@ -2462,8 +2462,8 @@ export var afinn = {
 
 
       //custom added words with arbitrary rankings
-      "works": 4,
-      "working": 4,
+      "works": 2,
+      "working": 2,
       "finally": 3,
       "fixed": 3,
       "fix": 3,
