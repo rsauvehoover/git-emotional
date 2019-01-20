@@ -1,6 +1,5 @@
 import React from 'react';
 import {Line} from 'react-chartjs-2';
-import { react } from 'babel-types';
 
 const data = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
