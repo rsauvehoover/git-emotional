@@ -94,6 +94,11 @@ body {
   font-family: Helvetica;
 }
 
+.sub-button:hover {
+  background-color: #073642;
+  color: white;
+}
+
 .input {
   border: 2px solid #073642;
   padding: 16px 32px;

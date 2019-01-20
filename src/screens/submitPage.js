@@ -19,6 +19,7 @@ class SubmitPage extends Component {
     this.props.updateUrl(ACTIONS.UPDATE_URL, this.state.input);
     this.setState({ input : "" });
   }
+  
 
   render() {
     return (
@@ -26,11 +27,14 @@ class SubmitPage extends Component {
         <div className="wrapper">
           <div className="header">git Emotional</div>
           <div>
-            <input className="main input" placeholder="Enter git repository URL"
+            <input id="mainInput" className="main input" placeholder="Enter git repository URL"
               onChange={e => this.updateInput(e.target.value)}
               value={this.state.input} 
             />
-            <button className="button sub-button" onClick={() => this.nextPath('/stat') }>Submit</button>
+            <button className="button sub-button" id="inputButton"
+              onClick={() => { if (!(document.getElementById('mainInput').value === '')) {this.nextPath('/stat')} }}
+              onMouseOver={e => { if (!(document.getElementById('mainInput').value === '')) 
+                {e.target.style.backgroundColor = "white"; e.target.style.color = "#073642"} }}>Submit</button>
           </div>
          
         </div>
