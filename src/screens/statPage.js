@@ -15,7 +15,6 @@ export default class StatPage extends Component {
     return (
       <div>
         <ReturnToSubmitButton></ReturnToSubmitButton>
-        <div>Filler stuff</div>
         <div>
           <LinePlot />
         </div>

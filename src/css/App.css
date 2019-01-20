@@ -58,6 +58,12 @@ p {
   color: #002b36;
   font-family: Helvetica;
 }
+.return-button {
+  background: #ffaa33;
+  font-size: 2em;
+  color: #002b36;
+  font-family: Helvetica;
+}
 @media all and (min-width: 600px) {
   .button {
     flex: 1 0 0;
