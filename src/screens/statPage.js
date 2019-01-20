@@ -25,19 +25,27 @@ class StatPage extends Component {
     if(this.continueFlag !== 0 && this.commits) {
       return (
         <div>
-        <ReturnToSubmitButton></ReturnToSubmitButton>
         <div>
         <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
         </div>
+        <ReturnToSubmitButton></ReturnToSubmitButton>
+        <button className="button dashboard-button"
+        onClick={() => {}}
+        >Change View
+        </button>
         </div>
       );
     }
     else {
       return (
         <div>
-        <ReturnToSubmitButton></ReturnToSubmitButton>
         <div>
         </div>
+        <ReturnToSubmitButton></ReturnToSubmitButton>
+        <button className="button dashboard-button"
+        onClick={() => {}}
+        >Change View
+        </button>
         </div>
       );
     }
