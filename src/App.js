@@ -7,12 +7,6 @@ import StatPage from './screens/statPage.js';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
-  componentDidMount() {
-    var sentimood = new Sentimood();
-    // Example of a function using sentimood
-    console.log(sentimood.analyze('fuck this shit'));
-  }
-
   render() {
     return (
       <Router>
