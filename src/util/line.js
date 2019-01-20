@@ -28,7 +28,7 @@ const data = {
   labels: timeStamps,
   datasets: [
     {
-      label: 'My First dataset',
+      label: 'Git commit overall sentiment',
       fill: false,
       lineTension: 0.1,
       backgroundColor: 'rgba(75,192,192,0.4)',
@@ -52,6 +52,9 @@ const data = {
 };
 
 const options = {
+  legend:{
+    display: false,
+  },
   scales:{
     yAxes:[{
       display:false,
