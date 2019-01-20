@@ -1,6 +1,7 @@
 import React, { Component }  from 'react';
 import Sentimood from '../sentiment/sentimood.js';
 import LinePlot from './line';
+import ReturnToSubmitButton from '../components/returnToSubmitButton.js';
 
 
 export default class StatPage extends Component {
@@ -13,6 +14,7 @@ export default class StatPage extends Component {
   render() {
     return (
       <div>
+        <ReturnToSubmitButton></ReturnToSubmitButton>
         <div>Filler stuff</div>
         <div>
           <LinePlot />
