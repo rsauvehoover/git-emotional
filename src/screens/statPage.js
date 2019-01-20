@@ -13,6 +13,9 @@ class StatPage extends Component {
       ghHandler.parse_repo(this.props.gh_url);
       this.props.updateRawData(ACTIONS.UPDATE_RAW_DATA, ghHandler.commits);
     }
+    else {
+      this.props.history.push('/');
+    }
   }
 
   render() {
