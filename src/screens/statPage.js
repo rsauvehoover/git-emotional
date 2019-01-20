@@ -11,6 +11,7 @@ class StatPage extends Component {
 		var ghHandler = new GithubHandler();
     if (!(this.props.gh_url === '')) {
       ghHandler.parse_repo(this.props.gh_url);
+      console.log(ghHandler.commits);
       this.props.updateRawData(ACTIONS.UPDATE_RAW_DATA, ghHandler.commits);
     }
     else {
