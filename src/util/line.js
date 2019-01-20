@@ -47,10 +47,20 @@ const data = {
       pointRadius: 1,
       pointHitRadius: 10,
       data: sentimentValues,
-
     }
-  ]
+  ],
 };
+
+const options = {
+  scales:{
+    yAxes:[{
+      ticks:{
+        min: 0,
+        max: 1,
+      }
+    }]
+  }
+}
 
 
 export default class LinePlot extends React.Component {
@@ -59,7 +69,10 @@ export default class LinePlot extends React.Component {
     return (
       <div>
         <h2>Line Example</h2>
-        <Line data={data} />
+        <Line
+	  data={data}
+	  options={options}
+	/>
       </div>
     );
   }
