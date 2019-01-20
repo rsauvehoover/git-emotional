@@ -26,9 +26,9 @@ class StatPage extends Component {
       return (
         <div className="flex-container wrapper">
           <div>
-            <div clssName="plot">
+            {/* <div className="plot"> */}
               <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
-            </div>
+            {/* </div> */}
             <ReturnToSubmitButton></ReturnToSubmitButton>
             {/* <button className="button dashboard-button"
               onClick={() => {}}

@@ -120,8 +120,8 @@ body {
 
 .dashboard-button {
   padding: 10px 15px;
-  position: fixed;
-  padding-bottom: 5px;
+
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -141,11 +141,11 @@ h2 {
   transition: opacity 250ms ease-in;
 }
 
-.plot {
+/* .plot {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 
 @media all and (min-width: 600px) {
