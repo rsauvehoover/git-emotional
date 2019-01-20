@@ -24,6 +24,11 @@ p {
   color: #387780;
   font-family: Helvetica;
 }
+
+body {
+  overflow:hidden;  
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -104,6 +109,50 @@ p {
   /* color: #002b36; */
   font-family: Helvetica;
 }
+
+/* .fade {
+  height: 100vh;
+  padding: calc(15% + 1.5em) 5% 5%;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  transition-timing-function: ease-in-out;
+  
+
+} */
+
+/* 
+.fade-enter {
+  transform: translate(0, -100%);
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+.fade-enter-active {
+  transform: translate(0, 0);
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+.fade-exit {
+  transform: translate(0, -100%);
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+} */
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+
 @media all and (min-width: 600px) {
   .button {
     flex: 1 0 0;
