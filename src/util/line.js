@@ -44,13 +44,17 @@ class LinePlot extends React.Component {
     };
 
     this.options = {
+      legend:{
+        display: false,
+      },
       scales:{
-        // yAxes:[{
+         yAxes:[{
+	   display: false,
         //   ticks:{
         //     min: -10,
         //     max: 10,
         //   }
-        // }]
+         }]
       }
     }
   }
