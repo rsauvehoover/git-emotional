@@ -33,8 +33,7 @@ class SubmitPage extends Component {
             />
             <button className="button sub-button" id="inputButton"
               onClick={() => { if (!(document.getElementById('mainInput').value === '')) {this.nextPath('/stat')} }}
-              onMouseOver={e => { if (!(document.getElementById('mainInput').value === '')) 
-                {e.target.style.backgroundColor = "white"; e.target.style.color = "#073642"} }}>Submit</button>
+              >Submit</button>
           </div>
          
         </div>
