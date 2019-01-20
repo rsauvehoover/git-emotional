@@ -122,37 +122,12 @@ body {
   padding: 10px 15px;
 }
 
-/* .fade {
-  height: 100vh;
-  padding: calc(15% + 1.5em) 5% 5%;
-  overflow-y: auto;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  -webkit-overflow-scrolling: touch;
-  transition-timing-function: ease-in-out;
-  
-
-} */
-
-/* 
-.fade-enter {
-  transform: translate(0, -100%);
-  transition-duration: 3s;
-  transition-timing-function: ease-in-out;
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #073642;
+  font-family: Helvetica;
 }
-
-.fade-enter-active {
-  transform: translate(0, 0);
-  transition-duration: 3s;
-  transition-timing-function: ease-in-out;
-}
-
-.fade-exit {
-  transform: translate(0, -100%);
-  transition-duration: 3s;
-  transition-timing-function: ease-in-out;
-} */
 
 .fade-enter {
   opacity: 0;
