@@ -6,6 +6,8 @@ import { GithubHandler } from '../util/ghapi/githubHandler.js';
 import { connect } from 'react-redux';
 import { updateRawData, ACTIONS } from '../redux/actions/actions.js';
 
+import Loader from 'react-loader-spinner';
+
 class StatPage extends Component {
   componentDidMount() {
     this.continueFlag = 0;
@@ -29,7 +31,6 @@ class StatPage extends Component {
             {/* <div className="plot"> */}
               <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
             {/* </div> */}
-            <ReturnToSubmitButton></ReturnToSubmitButton>
             {/* <button className="button dashboard-button"
               onClick={() => {}}
               >Change View
@@ -41,7 +42,7 @@ class StatPage extends Component {
     else {
       return (
         <div className="flex-container wrapper loading">
-          
+          <Loader type="TailSpin" color="#000000" heihgt={80} width={80}/>
         </div>
       );
     }

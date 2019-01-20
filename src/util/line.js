@@ -2,6 +2,8 @@ import React from 'react';
 import {Line} from 'react-chartjs-2';
 import Sentimood from './sentiment/sentimood.js';
 
+import Loader from 'react-loader-spinner';
+
 class LinePlot extends React.Component {
   constructor(props) {
     super(props)
@@ -142,13 +144,13 @@ class LinePlot extends React.Component {
 
   render() {
     if (this.props.commits.length > 0) {
+      this.timeStamps = [];
+      this.commitMessages = [];
+      this.sentimentValues = [];
       this.generateSentiment();
       //this.sentimentValues = this.convertValues(this.sentimentValues);
       this.generateGraph();
       // this.data = {};
-      this.timeStamps = [];
-      this.commitMessages = [];
-      this.sentimentValues = [];
       return (
         <div>
         <h2>{this.props.gh_url}</h2>
@@ -162,6 +164,7 @@ class LinePlot extends React.Component {
     else{
       return(
         <div>
+          <Loader type="TailSpin" color="#000000" heihgt={80} width={80}/>
         </div>
       );
     }
