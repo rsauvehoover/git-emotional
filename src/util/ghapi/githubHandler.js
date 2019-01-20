@@ -24,7 +24,7 @@ export class GithubHandler {
 				var templist = JSON.parse(client.responseText);
 				// append commits to global list commit_list
 				for (var i = 0; i < templist.length; i++){
-					parent.commits.push([templist[i].commit.message, templist[i].commit.author.date, templist[i].author.name]);
+					parent.commits.push([templist[i].commit.message, templist[i].commit.author.date, templist[i].commit.author.name]);
 				}
 			}
 		}
