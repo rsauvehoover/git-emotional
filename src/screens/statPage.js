@@ -8,11 +8,13 @@ import { updateRawData, ACTIONS } from '../redux/actions/actions.js';
 
 class StatPage extends Component {
   componentDidMount() {
-		var ghHandler = new GithubHandler();
+    this.continueFlag = 0;
+    var ghHandler = new GithubHandler();
     if (!(this.props.gh_url === '')) {
       ghHandler.parse_repo(this.props.gh_url);
-      console.log(ghHandler.commits);
       this.props.updateRawData(ACTIONS.UPDATE_RAW_DATA, ghHandler.commits);
+      this.commits = ghHandler.commits;
+      this.continueFlag = 1;
     }
     else {
       this.props.history.push('/');
@@ -20,20 +22,33 @@ class StatPage extends Component {
   }
 
   render() {
-    return (
-      <div>
-        
+    if(this.continueFlag !== 0 && this.commits) {
+      return (
         <div>
-          <LinePlot />
+        <div>
+        <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
         </div>
         <ReturnToSubmitButton></ReturnToSubmitButton>
         <button className="button dashboard-button"
-              onClick={() => {}}
-              >Change View
+        onClick={() => {}}
+        >Change View
         </button>
-      </div>
-      
-    );
+        </div>
+      );
+    }
+    else {
+      return (
+        <div>
+        <div>
+        </div>
+        <ReturnToSubmitButton></ReturnToSubmitButton>
+        <button className="button dashboard-button"
+        onClick={() => {}}
+        >Change View
+        </button>
+        </div>
+      );
+    }
   }
 }
 
@@ -41,6 +56,7 @@ const mapStateToProps = state => {
   const gh_url = state.updateGhUrl;
   return { gh_url }
 };
+
 
 export default connect(mapStateToProps, { updateRawData } )(StatPage)
 

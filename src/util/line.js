@@ -1,30 +1,26 @@
 import React from 'react';
 import {Line} from 'react-chartjs-2';
-
-import { connect } from 'react-redux';
-
+import Sentimood from './sentiment/sentimood.js';
 
 class LinePlot extends React.Component {
   constructor(props) {
     super(props)
     this.data = {};
-    this.options = {}
+    this.options = {};
+    this.sentimood = new Sentimood();
+    this.timeStamps = [];
+    this.commitMessages = [];
+    this.sentimentValues = [];
   }
 
-  componentDidMount() {
-    if (!(this.props.gh_data === [])) {
-    }
-    this.timeStamps = ['January', 'February', 'March', 'April', 'May', 'June', 'July']
-    this.sentimentValues = this.convertValues([3, 3, 2, 1, -3, 2, 1, 1, -1])
-
-    this.RATE_OF_GROWTH = 10 //lower means faster growth
-    this.NEGATIVE_IMPACT = 2 //higher means negative values cause larger drops
-
+  generateGraph() {
+    this.RATE_OF_GROWTH = 2.3 //lower means faster growth
+    this.NEGATIVE_IMPACT = 5 //higher means negative values cause larger drops
     this.data = {
-      labels: this.timeStamps,
+      labels: this.commitMessages,
       datasets: [
         {
-          label: 'My First dataset',
+          label: this.props.gh_url,
           fill: false,
           lineTension: 0.1,
           backgroundColor: 'rgba(75,192,192,0.4)',
@@ -49,48 +45,88 @@ class LinePlot extends React.Component {
 
     this.options = {
       scales:{
-        yAxes:[{
-          ticks:{
-            min: 0,
-            max: 1,
-          }
-        }]
+        // yAxes:[{
+        //   ticks:{
+        //     min: -10,
+        //     max: 10,
+        //   }
+        // }]
       }
     }
   }
 
   sigmoid(x){
-    return 1/(1 + Math.pow(Math.E, -x));
+    return (1/(1 + Math.pow(Math.E, -x)))-0.5;
   }
 
   convertValues(L){
-    var cur = 0.5;
-    for(var i = 0; i < L.length; i++){
-      if(L[i] < 0){
-        L[i] *= this.NEGATIVE_IMPACT
+    var cur = 0;
+    var factor;
+    var prev;
+    
+    for (var i = 1; i < L.length; i++) {
+      if (L[i] > 0) {
+        factor = this.RATE_OF_GROWTH;
+      } else {
+        factor = this.NEGATIVE_IMPACT;
       }
-      cur += L[i]/this.RATE_OF_GROWTH
-      L[i] = this.sigmoid(cur)
+      L[i] = L[i-1] + factor*this.sigmoid(L[i]);
     }
+    // for(var i = 0; i < L.length; i++){
+    //   if (i = 0) {
+    //     prev = 0;
+    //   } else {
+    //     prev = L[i-1];
+    //   }
+    //   if(L[i] < 0){
+    //     factor = this.NEGATIVE_IMPACT;
+    //     // L[i] *= this.NEGATIVE_IMPACT
+    //   } else {
+    //     factor = this.RATE_OF_GROWTH;
+    //     // cur += L[i]/this.RATE_OF_GROWTH
+    //   }
+    //   L[i] = prev+(this.sigmoid(cur)*factor);
+    // }
     return L;
   }
 
+  generateSentiment() {
+      for (var i = 0; i < this.props.commits.length; i++) {
+        this.sentimentValues.push(this.sentimood.analyze(this.props.commits[i][0]).score);
+        this.timeStamps.push(this.props.commits[i][1]);
+        this.commitMessages.push(this.props.commits[i][0]);
+      }
+      this.convertValues(this.sentimentValues);
+      
+    }
+
   render() {
-    return (
-      <div>
-      <h2>Line Example</h2>
-      <Line
+    if (this.props.commits.length > 0) {
+      this.generateSentiment();
+      //this.sentimentValues = this.convertValues(this.sentimentValues);
+      this.generateGraph();
+      // this.data = {};
+      this.timeStamps = [];
+      this.commitMessages = [];
+      this.sentimentValues = [];
+      return (
+        <div>
+        <h2>{this.props.gh_url}</h2>
+        <Line
         data={this.data}
         options={this.options}
-      />
-      </div>
-    );
+        />
+        </div>
+      );
+    }
+    else{
+      return(
+        <div>
+        </div>
+      );
+    }
   }
 };
 
-const mapStateToProps = state => {
-  const gh_data = state.updateGhRawData;
-  return { gh_data };
-}
 
-export default connect(mapStateToProps)(LinePlot)
+export default LinePlot
