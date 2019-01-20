@@ -40,14 +40,8 @@ class StatPage extends Component {
     }
     else {
       return (
-        <div>
-        <div>
-        </div>
-        <ReturnToSubmitButton></ReturnToSubmitButton>
-        <button className="button dashboard-button"
-        onClick={() => {}}
-        >Change View
-        </button>
+        <div className="flex-container wrapper loading">
+          
         </div>
       );
     }
