@@ -72,7 +72,7 @@ export default class LinePlot extends React.Component {
   render() {
     return (
       <div>
-        <h2>Line Example</h2>
+        <h2>Git Commit Sentiment Analysis</h2>
         <Line
 	  data={data}
 	  options={options}
