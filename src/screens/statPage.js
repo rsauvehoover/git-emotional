@@ -30,10 +30,10 @@ class StatPage extends Component {
               <LinePlot gh_url= { this.props.gh_url } commits = { this.commits }/>
             </div>
             <ReturnToSubmitButton></ReturnToSubmitButton>
-            <button className="button dashboard-button"
+            {/* <button className="button dashboard-button"
               onClick={() => {}}
               >Change View
-            </button>
+            </button> */}
           </div>
         </div>
       );

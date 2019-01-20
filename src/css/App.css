@@ -120,6 +120,8 @@ body {
 
 .dashboard-button {
   padding: 10px 15px;
+  position: fixed;
+  padding-bottom: 5px;
 }
 
 h2 {

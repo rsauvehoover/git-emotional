@@ -53,6 +53,9 @@ class LinePlot extends React.Component {
       scales:{
         yAxes:[{ 
           display: false,
+          ticks: {
+            suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+        }
         }],
         // xAxes:[{
         //   display: false,
