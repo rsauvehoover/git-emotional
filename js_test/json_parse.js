@@ -83,14 +83,41 @@ function get_commit_list(list, search) {
 
 	}
 
-	// for (var i = 0; i < commits.length; i++ ) {
 
-	// 	console.log(commits[i]);
-	// }
+	// var unique_commits = new Set(commits);
 
-	var unique_commits = new Set(commits);
+	commits.sort(compare);
 
-	unique_commits.forEach(print_object);
+	var k = commits.length;
+
+	for (var i = 0; i < k; i++ ) {
+		var j = i+1;
+
+		// console.log("j=" + j);
+
+		if (j >= k){
+			break;
+		}
+
+		while (commits[i][1] == commits[j][1]){
+			if (commits[i][0] == commits[j][0]){
+				commits.splice(j,1);
+
+				console.log("Deleted " + commits[j]);
+				k--;
+				// console.log(k);
+				// console.log("k=" + k);
+				
+			}
+			else {
+				j++;
+			}
+		}
+	}
+
+	for (var i = 0; i < commits.length; i++ ) {
+		console.log(commits[i]);
+	}
 
 
 }
@@ -125,6 +152,12 @@ function print_object(arg) {
 
 	console.log(arg);
 
+}
+
+function compare(a,b){
+	if (a[1] < b[1]) return -1;
+ 	if (a[1] > b[1]) return 1;
+ 	return 0;
 }
 
 sentiment = new Sentimood();
