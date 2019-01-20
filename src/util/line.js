@@ -15,8 +15,8 @@ class LinePlot extends React.Component {
   }
 
   generateGraph() {
-    this.RATE_OF_GROWTH = 2.3 //lower means faster growth
-    this.NEGATIVE_IMPACT = 5 //higher means negative values cause larger drops
+    this.RATE_OF_GROWTH = 0.5 //lower means faster growth
+    this.NEGATIVE_IMPACT = 1 //higher means negative values cause larger drops
     this.data = {
       tags: this.tags,
       labels: this.timeStamps,
@@ -53,10 +53,18 @@ class LinePlot extends React.Component {
       scales:{
         yAxes:[{ 
           display: false,
+          gridlines: {
+            display: false,
+          },
+          ticks: {
+            suggestedMin: 0,    // minimum will be 0, unless there is a lower value.
+        }
         }],
-        // xAxes:[{
-        //   display: false,
-        // }]
+        xAxes:[{
+          gridlines: {
+            display: false,
+          }
+        }]
       },
       tooltips: {
         callbacks: {
@@ -70,21 +78,25 @@ class LinePlot extends React.Component {
   }
 
   sigmoid(x){
-    return (1/(1 + Math.pow(Math.E, -x)))-0.5;
+    return Math.tanh(x);
+    // return (1/(1 + Math.pow(Math.E, -x)))-0.5;
   }
 
   convertValues(L){
-    var cur = 0;
+
     var factor;
-    var prev;
-    
+  
     for (var i = 1; i < L.length; i++) {
+      console.log("Before: ", L[i]);
       if (L[i] > 0) {
         factor = this.RATE_OF_GROWTH;
-      } else {
+      } else if (L[i] < 0) {
         factor = this.NEGATIVE_IMPACT;
+      } else {
+        factor = 0;
       }
       L[i] = L[i-1] + factor*this.sigmoid(L[i]);
+      console.log("after: ", L[i]);
     }
     // for(var i = 0; i < L.length; i++){
     //   if (i = 0) {
