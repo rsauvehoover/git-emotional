@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
+import SubmitButton from '../components/submitButton.js';
 
-export default class SubmitPage extends Component {
+class SubmitPage extends Component {
   render() {
     return (
-      <div class="flex-container wrapper">
-        <div class="wrapper">
-          <div class="header">git Emotional</div>
-          <input class="main" placeholder="Enter git repository URL" id="urlInput">
+      <div className="flex-container wrapper">
+        <div className="wrapper">
+          <div className="header">git Emotional</div>
+          <input className="main" placeholder="Enter git repository URL" id="urlInput">
           </input>
-          <button class="button sub-button" id="submitButton">
-            Submit
-          </button>
+					<SubmitButton></SubmitButton>
         </div>
       </div>
     );
   }
 }
+
+export default SubmitPage;
