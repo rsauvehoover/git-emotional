@@ -103,7 +103,7 @@ function get_commit_list(list, search) {
 			if (commits[i][0] == commits[j][0]){
 				commits.splice(j,1);
 
-				console.log("Deleted " + commits[j]);
+				// console.log("Deleted " + commits[j]);
 				k--;
 				// console.log(k);
 				// console.log("k=" + k);
