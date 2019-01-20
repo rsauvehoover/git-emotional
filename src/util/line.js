@@ -89,7 +89,7 @@ class LinePlot extends React.Component {
     var factor;
   
     for (var i = 1; i < L.length; i++) {
-      console.log("Before: ", L[i]);
+      // console.log("Before: ", L[i]);
       if (L[i] > 0) {
         factor = this.RATE_OF_GROWTH;
       } else if (L[i] < 0) {
@@ -98,7 +98,7 @@ class LinePlot extends React.Component {
         factor = 0;
       }
       L[i] = L[i-1] + factor*this.sigmoid(L[i]);
-      console.log("after: ", L[i]);
+      // console.log("after: ", L[i]);
     }
     // for(var i = 0; i < L.length; i++){
     //   if (i = 0) {
