@@ -1,8 +1,28 @@
 import React from 'react';
 import {Line} from 'react-chartjs-2';
 
+const RATE_OF_GROWTH = 10 //lower means faster growth
+const NEGATIVE_IMPACT = 2 //higher means negative values cause larger drops
+
+function sigmoid(x){
+  return 1/(1 + Math.pow(Math.E, -x));
+}
+
+function convertValues(L){
+  var cur = 0.5;
+  for(var i = 0; i < L.length; i++){
+    if(L[i] < 0){
+      L[i] *= NEGATIVE_IMPACT
+    }
+    cur += L[i]/RATE_OF_GROWTH
+    L[i] = sigmoid(cur)
+    console.log(L[i])
+  }
+  return L;
+}
+
 var timeStamps = ['January', 'February', 'March', 'April', 'May', 'June', 'July']
-var sentimentValues = [65, 59, 80, 81, 56, 55, 40]
+var sentimentValues = convertValues([3, 3, 2, 1, -3, 2, 1, 1, -1])
 
 const data = {
   labels: timeStamps,
@@ -26,7 +46,8 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 1,
       pointHitRadius: 10,
-      data: sentimentValues
+      data: sentimentValues,
+
     }
   ]
 };
