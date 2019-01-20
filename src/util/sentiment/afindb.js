@@ -2490,5 +2490,6 @@ export var afinn = {
       "know": 2,
       "failed": -2,
       "something": -1,
-      "know": 1
+      "know": 1,
+      "yeet": 2 
     }
