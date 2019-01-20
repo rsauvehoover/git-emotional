@@ -1,19 +1,4 @@
-/*
-sentimood v1.0
-a CoffeeScript browser-compatible port of thinkroth's Sentimental
-open-source under the MIT license, (c) Ethan Arterberry 2015
-
-modified by Kevin de Haan
-*/
-
-/* Usage:
-    sentiment = new Sentimood();
-    analysis = sentiment.analyze("phrase");
-*/
-
-export default class Sentimood {
-  constructor() {
-    this.afinn = {
+export var afinn = {
       "abandon": -2,
       "abandoned": -2,
       "abandons": -2,
@@ -944,7 +929,6 @@ export default class Sentimood {
       "faggot": -3,
       "faggots": -3,
       "fail": -2,
-      "failed": -2,
       "failing": -2,
       "fails": -2,
       "failure": -2,
@@ -1889,7 +1873,6 @@ export default class Sentimood {
       "resigns": -1,
       "resolute": 2,
       "resolve": 2,
-      "resolved": 2,
       "resolves": 2,
       "resolving": 2,
       "respected": 2,
@@ -2503,45 +2486,4 @@ export default class Sentimood {
       "know": 2,
       "failed": -2,
       "something": -1
-    };
-
-    this.negations = {
-      "not": -1,
-      "t": -1,
-    };
-  }
-
-
-  analyze(phrase) {
-    var addPush, hits, i, item, j, len, noPunctuation, tokens, words;
-    addPush = function(t, score) {
-      hits += score;
-      return words.push({t, score});
-    };
-    noPunctuation = phrase.replace(/[^a-zA-Z ]+/g, ' ').replace('/ {2,}/', ' ');
-    tokens = noPunctuation.toLowerCase().split(" ");
-    hits = 0;
-    words = [];
-    var negate = false;
-    for (i = j = 0, len = tokens.length; j < len; i = ++j) {
-      item = tokens[i];
-      console.log(item);
-      if (this.afinn.hasOwnProperty(item)) {
-        if (negate) {
-          addPush(item, this.afinn[item]*-1);
-        } else {
-          addPush(item, this.afinn[item]);
-        }
-      }
-      negate = false;
-      if (this.negations.hasOwnProperty(item)) {
-        negate = true;
-      }
     }
-    return {
-      score: hits,
-      comparative: hits / words.length,
-      words: words
-    };
-  }
-}

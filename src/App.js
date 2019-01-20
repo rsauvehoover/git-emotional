@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './css/App.css';
-import Sentimood from './sentiment/sentimood.js'
 import SubmitPage from './screens/submitPage.js';
 import StatPage from './screens/statPage.js';
 

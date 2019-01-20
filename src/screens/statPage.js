@@ -1,7 +1,8 @@
 import React, { Component }  from 'react';
-import Sentimood from '../sentiment/sentimood.js';
-import LinePlot from './line';
+import Sentimood from '../util/sentiment/sentimood.js';
+import LinePlot from '../util/line.js';
 import ReturnToSubmitButton from '../components/returnToSubmitButton.js';
+import { GithubHandler } from '../util/ghapi/githubHandler.js';
 
 
 export default class StatPage extends Component {
@@ -10,6 +11,9 @@ export default class StatPage extends Component {
     // Example of a function using sentimood
     console.log(sentimood.analyze('this don\'t good'));
 
+		var ghHandler = new GithubHandler("rsauvehoover/git-emotional");
+		console.log("running a test");
+		ghHandler.parse_repo("rsauvehoover/git-emotional");
   }
   render() {
     return (

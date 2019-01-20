@@ -33,6 +33,7 @@ const data = {
 
 
 export default class LinePlot extends React.Component {
+
   render() {
     return (
       <div>
