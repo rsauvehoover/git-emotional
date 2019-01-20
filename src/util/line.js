@@ -14,11 +14,8 @@ class LinePlot extends React.Component {
   }
 
   generateGraph() {
-    this.RATE_OF_GROWTH = 10 //lower means faster growth
-    this.NEGATIVE_IMPACT = 2 //higher means negative values cause larger drops
-    var r = Math.floor(Math.random()*255);
-    var g = Math.floor(Math.random()*255);
-    var r = Math.floor(Math.random()*255);
+    this.RATE_OF_GROWTH = 2.3 //lower means faster growth
+    this.NEGATIVE_IMPACT = 5 //higher means negative values cause larger drops
     this.data = {
       labels: this.commitMessages,
       datasets: [
@@ -59,18 +56,37 @@ class LinePlot extends React.Component {
   }
 
   sigmoid(x){
-    return 1/(1 + Math.pow(Math.E, -x));
+    return (1/(1 + Math.pow(Math.E, -x)))-0.5;
   }
 
   convertValues(L){
-    var cur = 0.5;
-    for(var i = 0; i < L.length; i++){
-      if(L[i] < 0){
-        L[i] *= this.NEGATIVE_IMPACT
+    var cur = 0;
+    var factor;
+    var prev;
+    
+    for (var i = 1; i < L.length; i++) {
+      if (L[i] > 0) {
+        factor = this.RATE_OF_GROWTH;
+      } else {
+        factor = this.NEGATIVE_IMPACT;
       }
-      cur += L[i]/this.RATE_OF_GROWTH
-      L[i] = this.sigmoid(cur)
+      L[i] = L[i-1] + factor*this.sigmoid(L[i]);
     }
+    // for(var i = 0; i < L.length; i++){
+    //   if (i = 0) {
+    //     prev = 0;
+    //   } else {
+    //     prev = L[i-1];
+    //   }
+    //   if(L[i] < 0){
+    //     factor = this.NEGATIVE_IMPACT;
+    //     // L[i] *= this.NEGATIVE_IMPACT
+    //   } else {
+    //     factor = this.RATE_OF_GROWTH;
+    //     // cur += L[i]/this.RATE_OF_GROWTH
+    //   }
+    //   L[i] = prev+(this.sigmoid(cur)*factor);
+    // }
     return L;
   }
 

@@ -2468,7 +2468,7 @@ export var afinn = {
       "fixed": 3,
       "fix": 3,
       "done": 2,
-      "added": 2,
+      "added": 1,
       "why": -1,
       "hack": -2,
       "shenanigans": -1,
@@ -2489,5 +2489,6 @@ export var afinn = {
       "again": -1,
       "know": 2,
       "failed": -2,
-      "something": -1
+      "something": -1,
+      "know": 1
     }
