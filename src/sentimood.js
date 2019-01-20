@@ -2503,7 +2503,15 @@ Sentimood = (function() {
     "features": 1,
     "resolved": 3,
     "?": -2,
-    "again": -1
+    "again": -1,
+    "know": 2
+  };
+
+  var negations;
+  negations = {
+    "not": -1,
+    "don't": -1,
+    "isn't": -1
   };
 
   Sentimood.prototype.negativity = function(phrase) {
@@ -2521,6 +2529,11 @@ Sentimood = (function() {
       if (afinn.hasOwnProperty(item)) {
         if (afinn[item] < 0) {
           addPush(item, afinn[item]);
+        }
+      }
+      if (negations.hasOwnProperty(item)) {
+        if (negations[item] < 0) {
+          hits = hits*-1;
         }
       }
     }
