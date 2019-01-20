@@ -47,8 +47,8 @@ class LinePlot extends React.Component {
       scales:{
         yAxes:[{
           ticks:{
-            min: -1,
-            max: 1,
+            min: -10,
+            max: 10,
           }
         }]
       }
@@ -81,7 +81,7 @@ class LinePlot extends React.Component {
   render() {
     if (this.props.commits.length > 0) {
       this.generateSentiment();
-      this.sentimentValues = this.convertValues(this.sentimentValues);
+      //this.sentimentValues = this.convertValues(this.sentimentValues);
       this.generateGraph();
       return (
         <div>
