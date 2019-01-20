@@ -11,13 +11,15 @@ class LinePlot extends React.Component {
     this.timeStamps = [];
     this.commitMessages = [];
     this.sentimentValues = [];
+    this.tags = {};
   }
 
   generateGraph() {
     this.RATE_OF_GROWTH = 2.3 //lower means faster growth
     this.NEGATIVE_IMPACT = 5 //higher means negative values cause larger drops
     this.data = {
-      labels: this.commitMessages,
+      tags: this.tags,
+      labels: this.timeStamps,
       datasets: [
         {
           label: this.props.gh_url,
@@ -39,6 +41,7 @@ class LinePlot extends React.Component {
           pointRadius: 1,
           pointHitRadius: 10,
           data: this.sentimentValues,
+          metadata: this.commitMessages
         }
       ],
     };
@@ -48,14 +51,21 @@ class LinePlot extends React.Component {
         display: false,
       },
       scales:{
-         yAxes:[{
-	   display: false,
-        //   ticks:{
-        //     min: -10,
-        //     max: 10,
-        //   }
-         }]
+        yAxes:[{ 
+          display: false,
+        }],
+        // xAxes:[{
+        //   display: false,
+        // }]
+      },
+      tooltips: {
+        callbacks: {
+            label: function(tooltipItem, data) {
+                return data.datasets[tooltipItem.datasetIndex].metadata[tooltipItem.index];
+            }
+        }
       }
+      
     }
   }
 
@@ -113,7 +123,9 @@ class LinePlot extends React.Component {
       }
       this.convertValues(this.sentimentValues);
       this.sentimentValues = this.filter(this.sentimentValues);
-      
+      for(var i = 0; i < this.sentimentValues.length; i++) {
+        this.tags[this.sentimentValues[i]] = this.commitMessages[i];
+      }
     }
 
   render() {
