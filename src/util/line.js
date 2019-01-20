@@ -54,6 +54,7 @@ const data = {
 const options = {
   scales:{
     yAxes:[{
+      display:false,
       ticks:{
         min: 0,
         max: 1,
