@@ -13,17 +13,37 @@ export class GithubHandler {
 		return 0;
 	}
 
+	get_total_pages(client) {
+		var headers = client.getAllResponseHeaders();
+		headers = headers.split("\n")
+		
+		for(var i = 0; i < headers.length; i++){
+			if(headers[i].slice(0, 4) === "link"){
+				var h = headers[i].split(",")
+				for(var j = 0; j < h.length; j++){
+					var re = new RegExp('rel="last"');
+					if(re.exec(h[j])){
+						re = new RegExp("[?]page=[0-9]+");
+						var pages = re.exec(h[j]).toString().split("=")[1];
+						return pages;
+					}
+				}
+			}
+		}
+	}
+
 	get_commits(sha, search) {
-		var query = search + "?per_page=100&sha=" + sha;
-		console.log(query);
+		var curPage = 1;
+
+		var getNextPage = true;
 
 		var client = new XMLHttpRequest();
-
 		var parent = this;
+		var totalPages = 0;
 
-		client.open('GET', query, false);
 		client.onreadystatechange = function() {
 			if (this.readyState === 4) {
+				totalPages = parent.get_total_pages(client);
 				var templist = JSON.parse(client.responseText);
 				// append commits to global list commit_list
 				for (var i = 0; i < templist.length; i++){
@@ -31,7 +51,22 @@ export class GithubHandler {
 				}
 			}
 		}
-		client.send();
+		
+		while(getNextPage){
+			if(typeof totalPages != "number"){
+				break;
+			}
+			var query = search + "?page=" + curPage + "&per_page=100&sha=" + sha + "";
+			console.log(query);
+
+			client.open('GET', query, false);
+			client.send();
+
+			curPage += 1;
+			if (curPage > totalPages){
+				getNextPage = false;
+			}
+		}
 	}
 
 	get_commit_list(list, commit_url) {
