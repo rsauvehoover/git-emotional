@@ -6,18 +6,21 @@ class LinePlot extends React.Component {
   constructor(props) {
     super(props)
     this.data = {};
-    this.options = {}
+    this.options = {};
     this.sentimood = new Sentimood();
     this.timeStamps = [];
+    this.commitMessages = [];
     this.sentimentValues = [];
   }
 
   generateGraph() {
     this.RATE_OF_GROWTH = 10 //lower means faster growth
     this.NEGATIVE_IMPACT = 2 //higher means negative values cause larger drops
-
+    var r = Math.floor(Math.random()*255);
+    var g = Math.floor(Math.random()*255);
+    var r = Math.floor(Math.random()*255);
     this.data = {
-      labels: this.timeStamps,
+      labels: this.commitMessages,
       datasets: [
         {
           label: this.props.gh_url,
@@ -75,7 +78,9 @@ class LinePlot extends React.Component {
       for (var i = 0; i < this.props.commits.length; i++) {
         this.sentimentValues.push(this.sentimood.analyze(this.props.commits[i][0]).score);
         this.timeStamps.push(this.props.commits[i][1]);
+        this.commitMessages.push(this.props.commits[i][0]);
       }
+      
     }
 
   render() {
@@ -83,6 +88,10 @@ class LinePlot extends React.Component {
       this.generateSentiment();
       //this.sentimentValues = this.convertValues(this.sentimentValues);
       this.generateGraph();
+      // this.data = {};
+      this.timeStamps = [];
+      this.commitMessages = [];
+      this.sentimentValues = [];
       return (
         <div>
         <h2>{this.props.gh_url}</h2>

@@ -57,5 +57,6 @@ const mapStateToProps = state => {
   return { gh_url }
 };
 
+
 export default connect(mapStateToProps, { updateRawData } )(StatPage)
 
